@@ -1,5 +1,7 @@
 # SHIFT DERBY / 赛马 SHIFT
 
+**赛马 SHIFT**：一款通过 `Shift` 加速自己或减速他人、触发完美反击进行加速并积攒暴走能量条，同时不断下注、与骑手对话提升好感度、也可以贿赂对手协助冲刺，最终赢得八轮总冠军的小游戏。
+
 A bilingual pixel-art horse-racing game for **GitHub Game Off 2026: SHIFT**. Tap Shift to counter an attack or boost when there is no warning. Hold Shift to use Overdrive, and shift lanes to pass the pack. Meet the round funding gates and compete through eight rounds for the highest rider earnings.
 
 ## Play
