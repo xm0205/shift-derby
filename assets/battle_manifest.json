@@ -1,0 +1,1300 @@
+{
+  "cuts": [
+    {
+      "path": "assets\\ui\\counter_v2\\frame.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        80,
+        95,
+        1690,
+        356
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1610,
+        261
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\header.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        365,
+        0,
+        1400,
+        128
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1035,
+        128
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\rail.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        135,
+        216,
+        1640,
+        310
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1505,
+        94
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\prompt.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        370,
+        365,
+        1348,
+        474
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        978,
+        109
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\perfect.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        723,
+        474,
+        1774,
+        708
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1051,
+        234
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\early.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        25,
+        733,
+        502,
+        858
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        477,
+        125
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\late.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        530,
+        733,
+        1000,
+        860
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        470,
+        127
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\pointer.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        1021,
+        721,
+        1146,
+        868
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        125,
+        147
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\pointer_glow.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        1160,
+        705,
+        1322,
+        887
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        162,
+        182
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\flash.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        1533,
+        699,
+        1742,
+        887
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        209,
+        188
+      ]
+    },
+    {
+      "path": "assets\\ui\\counter_v2\\counter.png",
+      "source": "第十六组：像素街机精准反击计时界面素材表.png",
+      "rect": [
+        0,
+        530,
+        744,
+        698
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        744,
+        168
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_0.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        60,
+        88,
+        468,
+        478
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_1.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        520,
+        88,
+        928,
+        478
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_2.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        980,
+        88,
+        1388,
+        478
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_3.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        60,
+        576,
+        468,
+        966
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_4.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        520,
+        576,
+        928,
+        966
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\horse_5.png",
+      "source": "17.1组：六只马攻击头像.png",
+      "rect": [
+        980,
+        576,
+        1388,
+        966
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\header.png",
+      "source": "17.2.png",
+      "rect": [
+        0,
+        45,
+        1448,
+        300
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1448,
+        255
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\panel.png",
+      "source": "17.2.png",
+      "rect": [
+        0,
+        325,
+        1448,
+        817
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        1448,
+        492
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\brake.png",
+      "source": "17.2.png",
+      "rect": [
+        40,
+        870,
+        688,
+        1055
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        648,
+        185
+      ]
+    },
+    {
+      "path": "assets\\ui\\attack_alert\\boost.png",
+      "source": "17.2.png",
+      "rect": [
+        760,
+        870,
+        1416,
+        1055
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        656,
+        185
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_0_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        5,
+        255,
+        202
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_0_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        5,
+        515,
+        202
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_0_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        5,
+        790,
+        202
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_0_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        5,
+        1090,
+        202
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_0_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        5,
+        1448,
+        202
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_1_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        202,
+        255,
+        365
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_1_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        202,
+        515,
+        365
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_1_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        202,
+        790,
+        365
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_1_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        202,
+        1090,
+        365
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_1_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        202,
+        1448,
+        365
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_2_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        365,
+        255,
+        535
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_2_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        365,
+        515,
+        535
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_2_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        365,
+        790,
+        535
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_2_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        365,
+        1090,
+        535
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_2_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        365,
+        1448,
+        535
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_3_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        535,
+        255,
+        700
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_3_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        535,
+        515,
+        700
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_3_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        535,
+        790,
+        700
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_3_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        535,
+        1090,
+        700
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_3_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        535,
+        1448,
+        700
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_4_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        700,
+        255,
+        870
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_4_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        700,
+        515,
+        870
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_4_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        700,
+        790,
+        870
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_4_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        700,
+        1090,
+        870
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_4_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        700,
+        1448,
+        870
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_5_0.png",
+      "source": "18-1.png",
+      "rect": [
+        30,
+        870,
+        255,
+        1086
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_5_1.png",
+      "source": "18-1.png",
+      "rect": [
+        265,
+        870,
+        515,
+        1086
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_5_2.png",
+      "source": "18-1.png",
+      "rect": [
+        515,
+        870,
+        790,
+        1086
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_5_3.png",
+      "source": "18-1.png",
+      "rect": [
+        790,
+        870,
+        1090,
+        1086
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\speed_afterimages\\horse_5_4.png",
+      "source": "18-1.png",
+      "rect": [
+        1090,
+        870,
+        1448,
+        1086
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        72
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_0.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        220,
+        175,
+        310,
+        299
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_1.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        310,
+        175,
+        438,
+        310
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_2.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        438,
+        145,
+        579,
+        327
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_3.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        579,
+        144,
+        765,
+        335
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_4.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        765,
+        137,
+        929,
+        339
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_5.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        929,
+        146,
+        1095,
+        337
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_6.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        1095,
+        165,
+        1277,
+        335
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\perfect_7.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        1277,
+        164,
+        1448,
+        338
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\normal_0.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        223,
+        34,
+        315,
+        144
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\normal_1.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        330,
+        22,
+        456,
+        153
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\normal_2.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        460,
+        3,
+        625,
+        162
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\normal_3.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        625,
+        0,
+        832,
+        169
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\counter_impact\\normal_4.png",
+      "source": "18-2蓝金像素反击特效精灵表.png",
+      "rect": [
+        834,
+        0,
+        1044,
+        163
+      ],
+      "emissive_reconstruction": false,
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_0.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        282,
+        108,
+        418,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_1.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        462,
+        108,
+        598,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_2.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        648,
+        108,
+        784,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_3.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        840,
+        108,
+        976,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_4.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1035,
+        108,
+        1171,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\lock_5.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1220,
+        108,
+        1356,
+        240
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_0.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        311,
+        691,
+        439,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_1.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        487,
+        691,
+        615,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_2.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        664,
+        691,
+        792,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_3.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        841,
+        691,
+        969,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_4.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1023,
+        691,
+        1151,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\cancel_5.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1196,
+        691,
+        1324,
+        819
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_0.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        308,
+        530,
+        442,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_1.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        483,
+        530,
+        617,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_2.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        663,
+        530,
+        797,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_3.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        838,
+        530,
+        972,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_4.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1023,
+        530,
+        1157,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\approach_5.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1193,
+        530,
+        1327,
+        614
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\danger_0.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        338,
+        317,
+        494,
+        435
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\danger_1.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        574,
+        317,
+        730,
+        435
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\danger_2.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        822,
+        317,
+        978,
+        435
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "assets\\vfx\\warning_alert\\danger_3.png",
+      "source": "18-03 预警闪烁特效.png",
+      "rect": [
+        1072,
+        317,
+        1228,
+        435
+      ],
+      "emissive_reconstruction": true,
+      "size": [
+        96,
+        96
+      ]
+    }
+  ],
+  "duplicate": [
+    "18-1.png",
+    "18-2.png"
+  ],
+  "warning_limit": "18-03 is dark-matted; emissive layers reconstructed from measured matte. Dim gray cancel frames may lose detail; originals unchanged.",
+  "names": "Game uses SILVER / 银风; sheet SILVER WIND mapped to horse #3."
+}

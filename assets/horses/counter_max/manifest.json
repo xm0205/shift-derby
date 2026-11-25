@@ -1,0 +1,146 @@
+{
+  "1": {
+    "source_rect": [
+      625,
+      355,
+      924,
+      455
+    ],
+    "maximum_component_bbox": [
+      665,
+      359,
+      880,
+      452
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse1_0.png",
+      "horse1_1.png",
+      "horse1_2.png",
+      "horse1_3.png",
+      "horse1_4.png",
+      "horse1_5.png"
+    ],
+    "ground_y": 224
+  },
+  "2": {
+    "source_rect": [
+      625,
+      460,
+      924,
+      561
+    ],
+    "maximum_component_bbox": [
+      669,
+      464,
+      896,
+      558
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse2_0.png",
+      "horse2_1.png",
+      "horse2_2.png",
+      "horse2_3.png",
+      "horse2_4.png",
+      "horse2_5.png"
+    ],
+    "ground_y": 224
+  },
+  "3": {
+    "source_rect": [
+      625,
+      562,
+      924,
+      665
+    ],
+    "maximum_component_bbox": [
+      679,
+      566,
+      903,
+      662
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse3_0.png",
+      "horse3_1.png",
+      "horse3_2.png",
+      "horse3_3.png",
+      "horse3_4.png",
+      "horse3_5.png"
+    ],
+    "ground_y": 224
+  },
+  "4": {
+    "source_rect": [
+      625,
+      665,
+      924,
+      769
+    ],
+    "maximum_component_bbox": [
+      650,
+      669,
+      909,
+      766
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse4_0.png",
+      "horse4_1.png",
+      "horse4_2.png",
+      "horse4_3.png",
+      "horse4_4.png",
+      "horse4_5.png"
+    ],
+    "ground_y": 224
+  },
+  "5": {
+    "source_rect": [
+      625,
+      772,
+      924,
+      874
+    ],
+    "maximum_component_bbox": [
+      671,
+      776,
+      911,
+      871
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse5_0.png",
+      "horse5_1.png",
+      "horse5_2.png",
+      "horse5_3.png",
+      "horse5_4.png",
+      "horse5_5.png"
+    ],
+    "ground_y": 224
+  },
+  "6": {
+    "source_rect": [
+      625,
+      877,
+      924,
+      991
+    ],
+    "maximum_component_bbox": [
+      650,
+      881,
+      913,
+      988
+    ],
+    "strength": "fourth / maximum",
+    "frames": [
+      "horse6_0.png",
+      "horse6_1.png",
+      "horse6_2.png",
+      "horse6_3.png",
+      "horse6_4.png",
+      "horse6_5.png"
+    ],
+    "ground_y": 224
+  }
+}

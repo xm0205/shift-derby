@@ -1,0 +1,41 @@
+{
+  "run": [
+    "run_00.png",
+    "run_01.png",
+    "run_02.png",
+    "run_03.png",
+    "run_04.png",
+    "run_05.png"
+  ],
+  "boost": [
+    "boost_00.png",
+    "boost_01.png",
+    "boost_02.png",
+    "boost_03.png",
+    "boost_04.png",
+    "boost_05.png"
+  ],
+  "brake": [
+    "brake_00.png",
+    "brake_01.png",
+    "brake_02.png",
+    "brake_03.png"
+  ],
+  "hit": [
+    "hit_00.png",
+    "hit_01.png",
+    "hit_02.png",
+    "hit_03.png",
+    "hit_04.png"
+  ],
+  "win": [
+    "win_00.png",
+    "win_01.png",
+    "win_02.png"
+  ],
+  "lose": [
+    "lose_00.png",
+    "lose_01.png",
+    "lose_02.png"
+  ]
+}

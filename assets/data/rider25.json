@@ -1,0 +1,3167 @@
+{
+  "riders": [
+    {
+      "id": 0,
+      "name": "红骑",
+      "personality": "热血、幽默、喜欢整活",
+      "normal": [
+        {
+          "text": "今天不拿第一，我就不回去了！",
+          "text_en": "I'm not going home without first place!",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "嘿！后面那位，跟紧一点！",
+          "text_en": "Hey, back there! Keep up!",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "哎呀，借过借过！",
+          "text_en": "Whoops! Coming through!",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "什么？刚刚发生了什么？",
+          "text_en": "Wait, what just happened?",
+          "event": "overtake",
+          "face": 1
+        },
+        {
+          "text": "不错嘛！这次算你厉害！",
+          "text_en": "Nice! You got me this time!",
+          "event": "counter_ok",
+          "face": 1
+        },
+        {
+          "text": "哈哈哈！反应慢半拍啦！",
+          "text_en": "Ha! A beat too slow!",
+          "event": "counter_miss",
+          "face": 4
+        },
+        {
+          "text": "喂！这可不在计划里！",
+          "text_en": "Hey! That wasn't the plan!",
+          "event": "collision",
+          "face": 8
+        },
+        {
+          "text": "我的马蹄怎么突然沉了！",
+          "text_en": "Why do my hooves feel like lead?",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "最后冲刺！我可不会让！",
+          "text_en": "Final sprint! I'm not giving an inch!",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "哈哈！现在知道谁是老大了吧！",
+          "text_en": "Ha! Now you know who's boss!",
+          "event": "win",
+          "face": 9
+        }
+      ],
+      "special": [
+        {
+          "text": "别挡道！前面就是我的主场！",
+          "text_en": "Out of my way! This track is mine!",
+          "event": "approach",
+          "face": 0,
+          "id": "R25-RED-01"
+        },
+        {
+          "text": "刚才那下？我是在让你！",
+          "text_en": "That last move? I was letting you win!",
+          "event": "counter_miss",
+          "face": 4,
+          "id": "R25-RED-02"
+        },
+        {
+          "text": "等等！终点是不是在那边？",
+          "text_en": "Hang on. Is the finish over there?",
+          "event": "finish",
+          "face": 7,
+          "id": "R25-RED-03"
+        },
+        {
+          "text": "哈哈！这次是真的赢麻了！",
+          "text_en": "Ha! Now that's what I call a win!",
+          "event": "win",
+          "face": 9,
+          "id": "R25-RED-04"
+        }
+      ],
+      "name_en": "Red Rider"
+    },
+    {
+      "id": 1,
+      "name": "蓝骑",
+      "personality": "冷静、理性、擅长分析",
+      "normal": [
+        {
+          "text": "比赛开始，按计划推进。",
+          "text_en": "Race underway. Proceed as planned.",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "你的路线已经进入我的观察范围。",
+          "text_en": "I've started tracking your line.",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "刚才的操作有些冒进。",
+          "text_en": "That move was a little reckless.",
+          "event": "collision",
+          "face": 8
+        },
+        {
+          "text": "这次超车还算干净。",
+          "text_en": "A fairly clean pass.",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "你的节奏，我已经记录了。",
+          "text_en": "I've logged your pace.",
+          "event": "near",
+          "face": 3
+        },
+        {
+          "text": "反应不错，误差很小。",
+          "text_en": "Good reaction. Minimal error.",
+          "event": "counter_ok",
+          "face": 1
+        },
+        {
+          "text": "可惜，慢了零点几秒。",
+          "text_en": "A fraction of a second too late.",
+          "event": "counter_miss",
+          "face": 4
+        },
+        {
+          "text": "不要着急，终点还很远。",
+          "text_en": "No rush. The finish is still a way off.",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "进入最后阶段，开始提速。",
+          "text_en": "Final stage. Time to pick up the pace.",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "结果出来之前，不要下结论。",
+          "text_en": "Wait for the result before drawing conclusions.",
+          "event": "loss",
+          "face": 6
+        }
+      ],
+      "special": [
+        {
+          "text": "根据我的计算，你马上就要超过我了。",
+          "text_en": "My calculations say you're about to pass me.",
+          "event": "near",
+          "face": 0,
+          "id": "R25-BLUE-01"
+        },
+        {
+          "text": "你以为我不知道你要干什么？",
+          "text_en": "You thought I hadn't planned for that?",
+          "event": "attack",
+          "face": 9,
+          "id": "R25-BLUE-02"
+        },
+        {
+          "text": "等一下……这不符合我的计算结果。",
+          "text_en": "Wait. That doesn't match my calculations.",
+          "event": "overtake",
+          "face": 1,
+          "id": "R25-BLUE-03"
+        },
+        {
+          "text": "数据更新。现在轮到我了。",
+          "text_en": "Data updated. My turn.",
+          "event": "ai_counter",
+          "face": 4,
+          "id": "R25-BLUE-04"
+        }
+      ],
+      "name_en": "Blue Rider"
+    },
+    {
+      "id": 2,
+      "name": "绿骑",
+      "personality": "活泼、迷糊、喜欢提问",
+      "normal": [
+        {
+          "text": "今天的天气真不错呀！",
+          "text_en": "Lovely weather for a race!",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "咦？你什么时候跑到我前面了？",
+          "text_en": "Huh? When did you get ahead of me?",
+          "event": "overtake",
+          "face": 1
+        },
+        {
+          "text": "等等我嘛！",
+          "text_en": "Wait up!",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "我是不是跑错道了？",
+          "text_en": "Am I even in the right lane?",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "嘿嘿！这次我赢啦！",
+          "text_en": "Hehe! I won this time!",
+          "event": "win",
+          "face": 9
+        },
+        {
+          "text": "哎呀，刚刚没注意！",
+          "text_en": "Oops! I wasn't looking!",
+          "event": "collision",
+          "face": 8
+        },
+        {
+          "text": "你知道一个秘密吗？",
+          "text_en": "Want to hear a secret?",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "我刚刚想说什么来着？",
+          "text_en": "What was I about to say?",
+          "event": "counter_ok",
+          "face": 1
+        },
+        {
+          "text": "马上就到终点了，加油！",
+          "text_en": "Almost there! Keep going!",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "呼……终于跑完啦！",
+          "text_en": "Phew. We made it!",
+          "event": "loss",
+          "face": 6
+        }
+      ],
+      "special": [
+        {
+          "text": "要不要跟我一起追前面那匹？",
+          "text_en": "Want to catch the horse up front together?",
+          "event": "near",
+          "face": 4,
+          "id": "R25-GREEN-01"
+        },
+        {
+          "text": "嘿嘿，我找到空当啦！",
+          "text_en": "Hehe! I found an opening!",
+          "event": "passed",
+          "face": 9,
+          "id": "R25-GREEN-02"
+        },
+        {
+          "text": "我还跟得上，你等等我呀！",
+          "text_en": "I can still keep up. Wait for me!",
+          "event": "overtake",
+          "face": 3,
+          "id": "R25-GREEN-03"
+        },
+        {
+          "text": "等等，我刚刚问的问题是什么？",
+          "text_en": "Wait. What did I just ask?",
+          "event": "near",
+          "face": 0,
+          "id": "R25-GREEN-04"
+        }
+      ],
+      "name_en": "Green Rider"
+    },
+    {
+      "id": 3,
+      "name": "紫骑",
+      "personality": "腹黑、神秘、喜欢坏笑",
+      "normal": [
+        {
+          "text": "呵呵，比赛终于开始了。",
+          "text_en": "Heh. The race has finally started.",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "你以为已经追上我了吗？",
+          "text_en": "You think you've caught me?",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "别回头，我就在这里。",
+          "text_en": "Don't look back. I'm right here.",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "哎呀，被你发现了。",
+          "text_en": "Oh. You spotted me.",
+          "event": "overtake",
+          "face": 1
+        },
+        {
+          "text": "这次反应倒是挺快。",
+          "text_en": "That was a quick reaction.",
+          "event": "counter_ok",
+          "face": 1
+        },
+        {
+          "text": "可惜，还是差了一点。",
+          "text_en": "So close. Such a shame.",
+          "event": "counter_miss",
+          "face": 4
+        },
+        {
+          "text": "不要太早高兴哦。",
+          "text_en": "Don't celebrate just yet.",
+          "event": "collision",
+          "face": 8
+        },
+        {
+          "text": "我可还没有认真呢。",
+          "text_en": "I haven't even started trying.",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "最后一圈，开始有趣了。",
+          "text_en": "Final lap. Now it gets interesting.",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "呵呵，这场比赛真不错。",
+          "text_en": "Heh. That was a fun race.",
+          "event": "win",
+          "face": 9
+        }
+      ],
+      "special": [
+        {
+          "text": "好吧好吧，这次算你赢了。",
+          "text_en": "Fine, fine. You win this one.",
+          "event": "side_pass",
+          "face": 9,
+          "id": "R25-PURPLE-01"
+        },
+        {
+          "text": "你刚才是不是看错了？",
+          "text_en": "Are you sure you saw that right?",
+          "event": "overtake",
+          "face": 1,
+          "id": "R25-PURPLE-02"
+        },
+        {
+          "text": "嘿嘿，计划成功。",
+          "text_en": "Hehe. Just as planned.",
+          "event": "passed",
+          "face": 4,
+          "id": "R25-PURPLE-03"
+        },
+        {
+          "text": "要不要再猜猜，谁会赢？",
+          "text_en": "Care to guess who'll win?",
+          "event": "finish",
+          "face": 7,
+          "id": "R25-PURPLE-04"
+        }
+      ],
+      "name_en": "Purple Rider"
+    },
+    {
+      "id": 4,
+      "name": "黄骑",
+      "personality": "高傲、自信、讲究排场",
+      "normal": [
+        {
+          "text": "冠军的位置，当然属于我。",
+          "text_en": "First place is naturally mine.",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "请保持优雅，我要超车了。",
+          "text_en": "Do keep it graceful. I'm passing.",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "这点距离可不够看。",
+          "text_en": "That gap hardly impresses.",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "金币能解决的问题，就不算问题。",
+          "text_en": "If gold can solve it, it isn't a problem.",
+          "event": "bribe",
+          "face": 4
+        },
+        {
+          "text": "哼，别以为领先就能赢。",
+          "text_en": "A lead is hardly a victory.",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "这次表现还算不错。",
+          "text_en": "A respectable performance.",
+          "event": "counter_ok",
+          "face": 1
+        },
+        {
+          "text": "居然让我落后了？",
+          "text_en": "You actually put me behind you?",
+          "event": "overtake",
+          "face": 1
+        },
+        {
+          "text": "最后冲刺，我可不会输。",
+          "text_en": "The final sprint is mine.",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "奖杯已经替我准备好了。",
+          "text_en": "My trophy is already waiting.",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "胜利的感觉，真是不错。",
+          "text_en": "Winning does feel rather lovely.",
+          "event": "win",
+          "face": 9
+        }
+      ],
+      "special": [
+        {
+          "text": "看看我的金币！是不是很闪？",
+          "text_en": "Look at my coins. Don't they shine?",
+          "event": "near",
+          "face": 0,
+          "id": "R25-GOLD-01"
+        },
+        {
+          "text": "想超过我？先拿出点实力吧。",
+          "text_en": "Pass me? Show me what you can do.",
+          "event": "passed",
+          "face": 4,
+          "id": "R25-GOLD-02"
+        },
+        {
+          "text": "嗯？你似乎有一笔不错的交易想和我谈谈？",
+          "text_en": "I take it you have a deal in mind?",
+          "event": "bribe",
+          "face": 4,
+          "id": "R25-GOLD-03"
+        },
+        {
+          "text": "这就是冠军应有的排场！",
+          "text_en": "That's how a champion makes an entrance.",
+          "event": "win",
+          "face": 9,
+          "id": "R25-GOLD-04"
+        }
+      ],
+      "name_en": "Gold Rider"
+    },
+    {
+      "id": 5,
+      "name": "粉骑",
+      "personality": "活泼可爱、撒娇、偶尔小脾气",
+      "normal": [
+        {
+          "text": "今天也要开心比赛呀！",
+          "text_en": "Let's have fun out there today!",
+          "event": "start",
+          "face": 0
+        },
+        {
+          "text": "等等我嘛～",
+          "text_en": "Wait for me, okay?",
+          "event": "near",
+          "face": 0
+        },
+        {
+          "text": "哇！你跑得好快！",
+          "text_en": "Whoa! You're so fast!",
+          "event": "overtake",
+          "face": 1
+        },
+        {
+          "text": "哼！我才不会认输呢！",
+          "text_en": "Hmph! I'm not giving up!",
+          "event": "brake",
+          "face": 5
+        },
+        {
+          "text": "刚才那下不算啦！",
+          "text_en": "That one doesn't count!",
+          "event": "counter_miss",
+          "face": 4
+        },
+        {
+          "text": "你是不是故意超过我的？",
+          "text_en": "You passed me on purpose, didn't you?",
+          "event": "near",
+          "face": 3
+        },
+        {
+          "text": "嘿嘿，我是不是很厉害？",
+          "text_en": "Hehe! Pretty good, huh?",
+          "event": "passed",
+          "face": 4
+        },
+        {
+          "text": "不要欺负我啦！",
+          "text_en": "Hey! Quit picking on me!",
+          "event": "collision",
+          "face": 8
+        },
+        {
+          "text": "最后冲刺！加油加油！",
+          "text_en": "Final sprint! Go, go, go!",
+          "event": "finish",
+          "face": 7
+        },
+        {
+          "text": "耶！终于结束啦！",
+          "text_en": "Yay! We made it!",
+          "event": "loss",
+          "face": 6
+        }
+      ],
+      "special": [
+        {
+          "text": "可以稍微等我一下嘛～",
+          "text_en": "Could you slow down just a little?",
+          "event": "near",
+          "face": 0,
+          "id": "R25-PINK-01"
+        },
+        {
+          "text": "哼！我再也不相信你了！",
+          "text_en": "Hmph! I'm never trusting you again!",
+          "event": "brake",
+          "face": 5,
+          "id": "R25-PINK-02"
+        },
+        {
+          "text": "看见了吗？这就是我的厉害！",
+          "text_en": "See that? That's what I can do!",
+          "event": "passed",
+          "face": 4,
+          "id": "R25-PINK-03"
+        },
+        {
+          "text": "这次要让你看看我的厉害！",
+          "text_en": "I'll show you what I've got!",
+          "event": "sprint",
+          "face": 9,
+          "id": "R25-PINK-04"
+        }
+      ],
+      "name_en": "Pink Rider"
+    }
+  ],
+  "cooldown": [
+    12,
+    18
+  ],
+  "ordinary_chance": 0.73,
+  "special_chance": 0.27,
+  "bribe": {
+    "cost": [
+      50,
+      100,
+      200,
+      1100,
+      2500,
+      4200,
+      6500,
+      9500
+    ],
+    "chance": [
+      0.65,
+      0.61,
+      0.57,
+      0.52,
+      0.45,
+      0.39,
+      0.34,
+      0.29
+    ],
+    "refund": [
+      0.75,
+      0.65,
+      0.5,
+      0.35,
+      0.2,
+      0.1,
+      0,
+      0
+    ]
+  },
+  "offer_chance": 0.22,
+  "offer_purse": [
+    200,
+    400,
+    800,
+    1600,
+    3200,
+    6400,
+    8400,
+    10400
+  ],
+  "offer_dialogue": {
+    "pink": {
+      "zh": "那个……前面几位都好快。你愿意帮我一次吗？\n比赛里给我一次加速。要是我拿第一，就分你一半奖金，%d 金币。说好啦？",
+      "en": "Um… the others are really fast. Could you help me?\nBoost me once in the race. If I win, you get half my prize: %d coins. Deal?"
+    },
+    "other": {
+      "zh": "看这赔率，我得找人搭把手。\n比赛里给我一次加速。要是我拿第一，就分你一半奖金，%d 金币。",
+      "en": "The odds are against me. I could use some help.\nBoost me once in the race. If I take first, you get half my prize: %d coins."
+    }
+  },
+  "quick_chat": {
+    "zh": [
+      "冲呀！",
+      "漂亮！",
+      "哇哦！",
+      "糟糕！",
+      "哈哈！",
+      "跑得好！"
+    ],
+    "en": [
+      "Go!",
+      "Nice!",
+      "Wow!",
+      "Oops!",
+      "Haha!",
+      "Good race!"
+    ]
+  },
+  "scene_weights": {
+    "hello": 30,
+    "joke": 25,
+    "praise": 20,
+    "special": 15,
+    "offer": 10
+  },
+  "scene_chance": 1.0,
+  "scenes": [
+    {
+      "hello": {
+        "zh": "紧张？我怕自己跑太快，来不及挥手！",
+        "en": "Nervous? I might run too fast to wave!",
+        "prompt_zh": "看你一直在原地热身，赤栗已经等不及了吧？",
+        "prompt_en": "Warming up in place already—Chestnut cannot wait, huh?",
+        "more_zh": "等一开跑，你可别走神，我三秒就冲到最前面！",
+        "more_en": "Do not blink at the start—I will be out front in three seconds!"
+      },
+      "joke": {
+        "zh": "我刚才跟马打赌了。它说我肯定话最多。",
+        "en": "I made a bet with my horse. It says I talk the most.",
+        "prompt_zh": "全场声音最大的就是你，喊这么多不累吗？",
+        "prompt_en": "Loudest voice on the whole track—not tired of shouting yet?",
+        "more_zh": "气势先赢一半！等会儿在弯道上记得听我喊口号！",
+        "more_en": "Hype is half the win! Listen for my shout on the bend!"
+      },
+      "praise": {
+        "zh": "有眼光！过线时记得再夸一遍！",
+        "en": "Good eye! Say that again at the finish!",
+        "prompt_zh": "刚看你试跑起步，那一下冲刺真快呀！",
+        "prompt_en": "That launch in warmups was explosive!",
+        "more_zh": "赤栗今天脚感热得很，待会儿直道上让你看个够！",
+        "more_en": "Chestnut is fired up today—wait till you see our straightaway!"
+      },
+      "special": {
+        "zh": "先跟马击个掌。它没手，我就拍拍它。",
+        "en": "A high five with my horse. It gets a pat instead.",
+        "prompt_zh": "你每次上场前都会拍拍赤栗？",
+        "prompt_en": "Do you always pat Chestnut before the gate?",
+        "more_zh": "它轻轻碰我一下，我就知道今天状态满格了！",
+        "more_en": "Once it nudges back, I know we are at full power!"
+      },
+      "snack": {
+        "zh": "大口吃饭加点心！有体力才跑得最快！",
+        "en": "Big meal and snacks! Full energy means top speed!",
+        "prompt_zh": "赤栗开跑前是不是也爱抢点心？",
+        "prompt_en": "Does Chestnut steal snacks before races too?",
+        "more_zh": "上次它趁我不注意，连我那份点心也全吃光了！",
+        "more_en": "Last time it swiped my share while I looked away!"
+      },
+      "weather": {
+        "zh": "大风算什么，我照样冲在最前面！",
+        "en": "Strong wind? I will still charge straight to first!",
+        "prompt_zh": "今天赛道风这么大，赤栗稳得住吗？",
+        "prompt_en": "Wind is loud today—can Chestnut stay calm?",
+        "more_zh": "它耳朵一甩就知道想冲了，我只抓紧缰绳！",
+        "more_en": "One ear flick and it wants to bolt—I just hold tight!"
+      },
+      "dream": {
+        "zh": "请全场一起开心庆祝，再来一场加赛！",
+        "en": "Celebrate with everyone—and run another lap!",
+        "prompt_zh": "要是拿了冠军，你不会又多跑半圈吧？",
+        "prompt_en": "If you win, will you run half an extra lap again?",
+        "more_zh": "哈哈哈！那次是减速晚了，这次我多跑一整圈庆祝！",
+        "more_en": "Haha! I braked late that time—this time I will run a full victory lap!"
+      },
+      "lucky": {
+        "zh": "大喊一声冲呀，把紧张全甩在后面！",
+        "en": "Shout GO at the gate and leave all nerves behind!",
+        "prompt_zh": "你每次上场前大喊，不怕吓到旁边马吗？",
+        "prompt_en": "Does shouting at the gate ever startle other horses?",
+        "more_zh": "赤栗听见我喊反而更稳，我们脾气一个样！",
+        "more_en": "Chestnut actually steadies up when I yell—we are just alike!"
+      },
+      "rival": {
+        "prompt_zh": "这几名对手里，你最想赢谁？",
+        "prompt_en": "Which rival do you want to beat the most?",
+        "zh": "蓝骑老爱算数据，我偏要在弯道把他的计划全冲乱！",
+        "en": "Blue loves his numbers—I want to wreck his whole plan on the bend!",
+        "more_zh": "对了，要是别人再问红建国是谁，帮我告诉他们别乱起外号！",
+        "more_en": "And if anyone asks who Hong Jianguo is, tell them to cut it out!"
+      },
+      "story": {
+        "prompt_zh": "你最初是怎么和赤栗一起跑的？",
+        "prompt_en": "How did you first partner with Chestnut?",
+        "zh": "它以前谁都不让骑，结果把我甩下来三次还冲我打气！",
+        "en": "Nobody could ride it—it threw me three times and snorted at me.",
+        "more_zh": "第四次我没松手，它就认了我。这脾气，绝配！",
+        "more_en": "Fourth try I held on, and we clicked. Perfect match!"
+      }
+    },
+    {
+      "hello": {
+        "zh": "心率比平时高一点。还在可控范围。",
+        "en": "My pulse is a little high. Still within range.",
+        "prompt_zh": "开跑前还在看笔记，这轮方案算好了？",
+        "prompt_en": "Still checking notes before the gate—plan locked in?",
+        "more_zh": "前半程稳住内线，后程按节奏发力，误差不到半秒。",
+        "more_en": "Hold inside early, unleash late—margin under half a second."
+      },
+      "joke": {
+        "zh": "我有个笑话。统计上，它应该很好笑。",
+        "en": "I have a joke. Statistically, it should be funny.",
+        "prompt_zh": "你的秒表要是慢了一格，比赛还跑不跑？",
+        "prompt_en": "If your stopwatch lags a tick, do you still race?",
+        "more_zh": "我会先调准，再把那零点一秒在弯道里追回来。",
+        "more_en": "Recalibrate first, then win that tenth of a second back in the turn."
+      },
+      "praise": {
+        "zh": "谢谢。我刚把出弯点向前挪了半步。",
+        "en": "Thanks. I moved my exit point half a step earlier.",
+        "prompt_zh": "刚才看苍影过弯几乎没减速，太稳了。",
+        "prompt_en": "Shadow barely lost any speed on that warmup bend.",
+        "more_zh": "步幅和入弯时机刚好吻合。谢谢你的观察。",
+        "more_en": "Stride cadence matched the entry timing. Thank you for noticing."
+      },
+      "special": {
+        "zh": "我会再检查一次缰绳和起步路线。",
+        "en": "I check the reins and my starting line one more time.",
+        "prompt_zh": "上场前你总要静下来想一会儿，是在默记路线？",
+        "prompt_en": "Pausing quietly before every race—rehearsing the line?",
+        "more_zh": "把每个弯道和可能的变道在心里跑一遍，上场就不慌。",
+        "more_en": "Running every bend and lane shift mentally keeps race pace calm."
+      },
+      "snack": {
+        "zh": "少量点心就好。状态稳定比什么都重要。",
+        "en": "Just a light snack. Steady focus matters most.",
+        "prompt_zh": "你连赛前吃什么都要按数据算吗？",
+        "prompt_en": "Do you even calculate your pre-race snacks?",
+        "more_zh": "不多不少刚好够跑完最后一圈，零浪费。",
+        "more_en": "Just enough energy for the final lap, zero waste."
+      },
+      "weather": {
+        "zh": "弯道风向我已经算进换道路线里了。",
+        "en": "Bend wind is already factored into my lane plan.",
+        "prompt_zh": "你刚才盯着赛道看了半天，在算风速？",
+        "prompt_en": "Were you timing the wind on the track earlier?",
+        "more_zh": "嗯，第二个弯道外侧阻力偏大，我会提前切内线。",
+        "more_en": "Yes—outer bend drag is higher today, so I will cut inside early."
+      },
+      "dream": {
+        "zh": "整理这八轮数据，为下一次比赛做准备。",
+        "en": "Archive all eight rounds of data for the next cup.",
+        "prompt_zh": "拿了总冠军，你会放松休息一天吗？",
+        "prompt_en": "If you win the cup, will you take a day off?",
+        "more_zh": "也许会先静静休息，再把最后一圈复盘一遍。",
+        "more_en": "Maybe one quiet pause—then review the final lap split."
+      },
+      "lucky": {
+        "zh": "开跑前默数三秒，重新确认起步节奏。",
+        "en": "Count three quietly and recheck my start rhythm.",
+        "prompt_zh": "你真的不看手气，只看计时表吗？",
+        "prompt_en": "Do you really ignore luck and only trust the clock?",
+        "more_zh": "苍影出弯放长步幅的那一刻，就是最好的手气。",
+        "more_en": "When Shadow lengthens its exit stride, that is all the luck I need."
+      },
+      "rival": {
+        "prompt_zh": "你的笔记里，谁最让人看不住？",
+        "prompt_en": "In your notes, who is hardest to read?",
+        "zh": "绿骑。偶尔数错圈数，反而会在意想不到的地方加速。",
+        "en": "Green. Loses lap count and accelerates where no model expects.",
+        "more_zh": "至于紫骑，他喜欢等人回头，只要不看他就能稳住。",
+        "more_en": "As for Purple, he waits for you to glance back—so never look."
+      },
+      "story": {
+        "prompt_zh": "那场让你开始记笔记的录像，后来你还看过吗？",
+        "prompt_en": "Do you still watch that first race tape?",
+        "zh": "留着呢。那时候我以为自己很快，结果全程都在白费力气。",
+        "en": "I kept it. I thought I was flying, yet I wasted every stride.",
+        "more_zh": "苍影一直很耐心，等我慢慢学会听它的节奏。",
+        "more_en": "Shadow was patient while I finally learned to listen to its rhythm."
+      }
+    },
+    {
+      "hello": {
+        "zh": "有一点！你一问，我反而没那么紧张了。",
+        "en": "A little! Now that you ask, I feel better.",
+        "prompt_zh": "别忘了这轮有几圈呀，准备好了吗？",
+        "prompt_en": "Remember the lap count this round—ready to roll?",
+        "more_zh": "这次我把圈数记住啦，绝对不会再多跑一圈！",
+        "more_en": "Memorized the lap count this time—no extra lap mistakes!"
+      },
+      "joke": {
+        "zh": "嘿嘿！我想了个笑话……开头是什么来着？",
+        "en": "Hehe! I thought of a joke… how did it start?",
+        "prompt_zh": "听说银风比你还会认终点线？",
+        "prompt_en": "Heard Silver spots the finish line better than you?",
+        "more_zh": "嘿嘿，真的！每次到最后一圈它都会先点头提醒我！",
+        "more_en": "Hehe, true! It gives me a little nod on the bell lap to remind me!"
+      },
+      "praise": {
+        "zh": "真的呀？我刚才还以为自己走错道了！",
+        "en": "Really? I thought I'd taken the wrong lane!",
+        "prompt_zh": "银风刚才绕场跑得好轻快，像顺着风一样！",
+        "prompt_en": "Silver looked light as a breeze out there!",
+        "more_zh": "听见你夸它，银风高兴得直甩头呢！",
+        "more_en": "Silver is tossing its head happily hearing that!"
+      },
+      "special": {
+        "zh": "摸四叶草。偶尔会摸了三次才想起来。",
+        "en": "I touch my clover. Sometimes I do it three times by accident.",
+        "prompt_zh": "你每次都会轻轻跟银风碰碰额头？",
+        "prompt_en": "Do you always lean in to touch foreheads with Silver first?",
+        "more_zh": "嗯！这样它就知道今天是开心跑比赛，不是赶路啦！",
+        "more_en": "Yep! That tells it we are racing for fun, not chores!"
+      },
+      "snack": {
+        "zh": "最喜欢吃小点心啦！银风刚才也想偷吃呢。",
+        "en": "Little snacks! Silver tried to sneak a bite too.",
+        "prompt_zh": "银风今天是不是又盯着你手里看？",
+        "prompt_en": "Is Silver staring at your hands again today?",
+        "more_zh": "对呀！它记性可好了，放哪儿都能被它找到！",
+        "more_en": "Yes! It remembers every single treat I try to hide!"
+      },
+      "weather": {
+        "zh": "有风跑起来好开心呀，感觉马都变轻了！",
+        "en": "The breeze feels great—makes us feel lighter!",
+        "prompt_zh": "今天天气这么好，你不会跑着跑着看风景吧？",
+        "prompt_en": "With weather this nice, will you forget to watch the lane?",
+        "more_zh": "才不会呢！……应该不会吧，银风会提醒我的！",
+        "more_en": "No way! ...Probably not—Silver will nudge me if I do!"
+      },
+      "dream": {
+        "zh": "带银风去草地跑一圈，好好放松一下！",
+        "en": "Take Silver for a relaxing run on the grass!",
+        "prompt_zh": "要是赢了这么多金币，你想带银风去哪？",
+        "prompt_en": "With all that prize gold, where will you take Silver?",
+        "more_zh": "找一片大草地，不计时也不抢道，想跑几圈就跑几圈！",
+        "more_en": "A wide open meadow—no clock, no traffic, just running free!"
+      },
+      "lucky": {
+        "zh": "对着四叶草许愿，希望大家都平平安安！",
+        "en": "Wish on my clover that everyone finishes safely!",
+        "prompt_zh": "你的四叶草今天带在身上了吗？",
+        "prompt_en": "Did you bring your four-leaf clover today?",
+        "more_zh": "带啦！我出发前还让银风闻了一下，它开心地甩了甩头！",
+        "more_en": "Right here! I let Silver sniff it and it tossed its head happily!"
+      },
+      "rival": {
+        "prompt_zh": "你觉得场上哪位骑手最不好追？",
+        "prompt_en": "Who is the toughest rider for you to chase?",
+        "zh": "红骑冲起来像一把火，我一转眼就看不见人影了！",
+        "en": "Red charges like a fireball—one blink and he is gone!",
+        "more_zh": "不过只要顺着风贴紧弯道，我和银风也能追上去！",
+        "more_en": "Still, if we ride the breeze around the bend, Silver and I can catch up!"
+      },
+      "story": {
+        "prompt_zh": "家里人教你骑马时，最常说什么？",
+        "prompt_en": "What did your family tell you when you learned to ride?",
+        "zh": "别急着赶马跑，先伸手让它闻闻，心意相通才会一起赢。",
+        "en": "Never rush a horse—hold out your hand first. Trust wins together.",
+        "more_zh": "银风第一次就是轻轻贴近我的手心，所以我一直记得！",
+        "more_en": "Silver gently nudged my palm that first day, and I never forgot!"
+      }
+    },
+    {
+      "hello": {
+        "zh": "有一点。呵呵，不过听见你这么问，我就放心了。",
+        "en": "A little. Hehe, hearing you ask puts me at ease.",
+        "prompt_zh": "你站得这么靠边，又在打什么弯道主意？",
+        "prompt_en": "Standing off to the side—plotting another bend trick?",
+        "more_zh": "别紧张，真正的好戏要留到最后半圈才开场。",
+        "more_en": "Relax—the real show waits until the final half lap."
+      },
+      "joke": {
+        "zh": "我打赌你猜不到我早饭吃了什么。是布丁。",
+        "en": "Bet you can't guess my breakfast. It was pudding.",
+        "prompt_zh": "待会儿换道前，你能先给我个信号吗？",
+        "prompt_en": "Give me a signal before you cut lanes later?",
+        "more_zh": "好呀，等我超到你前面时，再回头告诉你。",
+        "more_en": "Sure—I will glance back and tell you right after I pass."
+      },
+      "praise": {
+        "zh": "哦？你也注意到了。那我下次可要认真一点。",
+        "en": "Oh? You noticed. Now I'll have to try a bit harder.",
+        "prompt_zh": "你刚才那招切内线，差点把我看花眼了。",
+        "prompt_en": "That inside feint earlier almost faked me out.",
+        "more_zh": "呵呵，只是热身的小把戏。真跑起来会更好看。",
+        "more_en": "Heh, just a warmup tease. The real race gets much sharper."
+      },
+      "special": {
+        "zh": "我会听起跑线边的脚步声，数到第三下就安静下来。",
+        "en": "I listen for footsteps near the start. Three steps and I settle down.",
+        "prompt_zh": "你开跑前总爱盯着别人眼神看，干嘛呢？",
+        "prompt_en": "Why do you stare into everyone eyes before the gate?",
+        "more_zh": "看谁眼神一直乱看，谁就最容易在弯道留出空位。",
+        "more_en": "Whoever has wandering eyes leaves the widest gap in the turn."
+      },
+      "snack": {
+        "zh": "来一点布丁就够了，正好保持清醒。",
+        "en": "Just a little pudding—keeps my mind sharp.",
+        "prompt_zh": "今天早饭又是布丁吗？",
+        "prompt_en": "Did you have pudding for breakfast again?",
+        "more_zh": "呵呵，被你记住了呢。布丁能让我在弯道更冷静。",
+        "more_en": "Heh, you remembered. Pudding keeps me calm through the bends."
+      },
+      "weather": {
+        "zh": "风大才好，对手更容易给出空当呢。",
+        "en": "Strong wind makes rivals easier to read.",
+        "prompt_zh": "风这么大，你的换道招数还灵吗？",
+        "prompt_en": "Will your lane feints still work in this wind?",
+        "more_zh": "局面一乱，大家就更容易看错方向，正合我意。",
+        "more_en": "The messier the pack gets, the easier everyone misreads a move."
+      },
+      "dream": {
+        "zh": "呵呵，最想看大家在终点停住的一刻。",
+        "en": "Heh, watching everyone freeze at the finish.",
+        "prompt_zh": "你来比赛好像不只为了金币？",
+        "prompt_en": "You seem to race for more than just coins.",
+        "more_zh": "金币当然好，可最后半圈反超时的安静，才最让人上瘾。",
+        "more_en": "Gold is nice, yet that split second of silence when I slip past? Priceless."
+      },
+      "lucky": {
+        "zh": "仔细观察每个人的起跑站位，很有意思哦。",
+        "en": "Studying every gate position—always fun.",
+        "prompt_zh": "你上场前总在偷笑，又想到新主意了？",
+        "prompt_en": "That smirk before the gate—another scheme ready?",
+        "more_zh": "秘密。待会儿在赛道上，你很快就会见到。",
+        "more_en": "Secret. You will see it on the track soon enough."
+      },
+      "rival": {
+        "prompt_zh": "你最喜欢跟谁比心眼？",
+        "prompt_en": "Who is the most fun to outsmart?",
+        "zh": "黄骑。他最在意风度，只要抢在他前面切线，他表情最有趣。",
+        "en": "Gold. He cares so much about poise—cutting his line is priceless.",
+        "more_zh": "不过你也慢慢变得不好骗了，这样才好玩嘛。",
+        "more_en": "Though you are getting harder to fool too—makes it even more fun."
+      },
+      "story": {
+        "prompt_zh": "听说你刚上场时总被人挤到外道？",
+        "prompt_en": "Heard you used to get boxed outside on debut?",
+        "zh": "是啊，那时候只顾着往前挤，连着输了好几场。",
+        "en": "True—I tried forcing my way through and lost race after race.",
+        "more_zh": "直到黑曜自己停了一拍，从内侧空位钻过去，我才明白。",
+        "more_en": "Until Onyx waited half a beat and slipped inside. That taught me everything."
+      }
+    },
+    {
+      "hello": {
+        "zh": "有一丝紧张也无妨。把手套戴好，自然就镇定了。",
+        "en": "A little nerves never hurt. Once my gloves are on, I'm calm.",
+        "prompt_zh": "你看起来一点不慌，这轮打算全场领跑？",
+        "prompt_en": "Looking calm as ever—planning to lead wire to wire?",
+        "more_zh": "领跑当然亮眼，优雅地赢下终点线才是真本事。",
+        "more_en": "Leading is flashy; winning the line with grace is true mastery."
+      },
+      "joke": {
+        "zh": "有趣的是，我比奖杯更早准备好了领奖台词。",
+        "en": "Here's something amusing. My podium speech was ready before the trophy.",
+        "prompt_zh": "要是赛道草叶飞起来，你会减速躲开吗？",
+        "prompt_en": "If track grass kicks up, would you slow to dodge it?",
+        "more_zh": "只要始终跑在最前面，就不会有任何草叶落在身上。",
+        "more_en": "Stay in first place and not a single speck can reach you."
+      },
+      "praise": {
+        "zh": "你眼光不错。下次我会跑得更优雅。",
+        "en": "You have a good eye. Next time I'll be even more graceful.",
+        "prompt_zh": "刚才看你和金麦入场，看台欢呼声最大呢。",
+        "prompt_en": "You and Goldie got the loudest cheer entering the track.",
+        "more_zh": "观众懂得看从容的步调，这轮我也不会让他们失望。",
+        "more_en": "The crowd appreciates composed stride—I will not disappoint them."
+      },
+      "special": {
+        "zh": "把手套拉平、披风理好。比赛也要讲究仪态。",
+        "en": "I smooth my gloves and straighten my cape. Poise matters.",
+        "prompt_zh": "每次进场你都会先向看台挥手？",
+        "prompt_en": "Do you always wave to the stands before every race?",
+        "more_zh": "礼数到位，比赛才更有分量。金麦也很喜欢那份掌声。",
+        "more_en": "Proper form elevates the race—and Goldie loves the applause."
+      },
+      "snack": {
+        "zh": "好看的点心配好心情，赛前也要保持优雅。",
+        "en": "Fine treats and poise—elegance starts before the gate.",
+        "prompt_zh": "连赛前休息，你也要这么讲究吗？",
+        "prompt_en": "Even pre-race breaks have to be this fancy?",
+        "more_zh": "心态决定了步调，从容的人才能笑到终点。",
+        "more_en": "Poise sets the pace—only the composed smile at the finish."
+      },
+      "weather": {
+        "zh": "这点风刚好，跑起来更有冠军的排场。",
+        "en": "Just enough breeze for a champion entrance.",
+        "prompt_zh": "今天的风会不会弄乱金麦的鬃毛？",
+        "prompt_en": "Will the wind mess up Goldie mane today?",
+        "more_zh": "放心，出发前我仔细理过三遍，一根都不会乱。",
+        "more_en": "Relax—I combed it three times before the gate. Not a strand out of place."
+      },
+      "dream": {
+        "zh": "把奖杯高高举起来，让全场都记住我。",
+        "en": "Hold the trophy high so the whole stadium remembers.",
+        "prompt_zh": "如果今天站上领奖台，第一句话想说什么？",
+        "prompt_en": "If you take the podium today, what will you say first?",
+        "more_zh": "当然是谢谢金麦，再顺便提醒大家，优雅也能赢比赛。",
+        "more_en": "Thank Goldie first—and remind the crowd that elegance wins too."
+      },
+      "lucky": {
+        "zh": "调整好状态再上场，冠军可不能乱了风度。",
+        "en": "Check my poise before mounting—style matters.",
+        "prompt_zh": "你每次都会替金麦理鬃毛再上场？",
+        "prompt_en": "Do you always comb Goldie mane before every race?",
+        "more_zh": "这是我们的约定，理顺了它跑起来才会拿出全部实力。",
+        "more_en": "Our unspoken deal—once it is neat, Goldie gives me everything."
+      },
+      "rival": {
+        "prompt_zh": "场上有哪位对手让你觉得值得认真对待？",
+        "prompt_en": "Which rival truly earns your respect?",
+        "zh": "蓝骑的节奏很稳，紫骑的心思够细，都是不错的对手。",
+        "en": "Blue has steady pacing and Purple is sharp—worthy rivals both.",
+        "more_zh": "至于你嘛，如果你能在终点前追上我，我也会为你鼓掌。",
+        "more_en": "As for you, catch me before the line and I will gladly applaud."
+      },
+      "story": {
+        "prompt_zh": "你刚才说，以前只想站在看台看得见的地方？",
+        "prompt_en": "You once said you just wanted to be seen from the stands?",
+        "zh": "小时候总觉得，只有站在最亮的位置才算被记住。",
+        "en": "Growing up, I thought only the brightest spot mattered.",
+        "more_zh": "后来和金麦跑过那么多圈才懂，跑出自己的节奏才最亮眼。",
+        "more_en": "After so many laps with Goldie, I learned running true to yourself shines brightest."
+      }
+    },
+    {
+      "hello": {
+        "zh": "有一点点！再跟我说声加油嘛。",
+        "en": "A teeny bit! Tell me good luck?",
+        "prompt_zh": "今天花斑的脚步看着好轻快，状态不错吧？",
+        "prompt_en": "Patches looks so bouncy today—feeling good?",
+        "more_zh": "嗯！它刚才还冲我点点头呢，我们这轮一定会跑完最棒的一场！",
+        "more_en": "Yes! It even nodded at me—we are going to give our best run!"
+      },
+      "joke": {
+        "zh": "我刚和小马说别紧张。然后它回头看了我一眼！",
+        "en": "I told my horse to relax. Then it looked right back at me!",
+        "prompt_zh": "你身上的小爱心，是不是每次赛前都擦得发亮？",
+        "prompt_en": "Do you polish the little heart on your helmet every round?",
+        "more_zh": "嘿嘿，被你发现啦！这么亮眼，栏杆那边的人一眼就能找到我！",
+        "more_en": "Hehe, caught me! Shiny means my fans by the rail can spot me!"
+      },
+      "praise": {
+        "zh": "嘿嘿，再说一遍嘛，我爱听！",
+        "en": "Hehe, say it again! I love hearing that!",
+        "prompt_zh": "刚才看你和花斑配合得真好，一点都不慌！",
+        "prompt_en": "You and Patches looked totally in sync just now!",
+        "more_zh": "谢谢你！听你这么一说，我感觉整个人都更有劲啦！",
+        "more_en": "Thank you! Hearing that gives me a huge boost!"
+      },
+      "special": {
+        "zh": "我会给小马偷偷比个心。你可别说出去！",
+        "en": "I make a little heart for my horse. Keep it a secret!",
+        "prompt_zh": "上场前你总要给花斑顺顺耳朵？",
+        "prompt_en": "Always smoothing Patches ears before heading out?",
+        "more_zh": "只要摸摸耳朵，它就不怕开跑时的声音了，可灵啦！",
+        "more_en": "One gentle ear rub and the starting bell does not spook it at all!"
+      },
+      "snack": {
+        "zh": "带了好多小点心！分你一半，一起加油吧！",
+        "en": "Brought plenty of treats! Here is half—let us go!",
+        "prompt_zh": "花斑今天心情看起来真好呢！",
+        "prompt_en": "Patches looks super happy today!",
+        "more_zh": "嘿嘿，因为我带了它最喜欢的小点心，分了它两份！",
+        "more_en": "Hehe, I brought its favorite snacks and shared two pieces!"
+      },
+      "weather": {
+        "zh": "花瓣跟着风飞起来，赛道变得好好看呀！",
+        "en": "Petals fly in the wind—the track looks so pretty!",
+        "prompt_zh": "赛道起风了，花斑会不会有点紧张？",
+        "prompt_en": "Track is windy—is Patches getting nervous?",
+        "more_zh": "有一点点，不过我摸摸它的耳朵，它马上就安心啦！",
+        "more_en": "Just a tiny bit, but once I pat its ears it calms right down!"
+      },
+      "dream": {
+        "zh": "给花斑准备最漂亮的小红花，带它去玩！",
+        "en": "Get Patches the prettiest flower and go play!",
+        "prompt_zh": "拿了冠军你想先和谁一起庆祝？",
+        "prompt_en": "Who will you celebrate with first if you win?",
+        "more_zh": "先抱抱花斑，再去栏杆旁边和一直给我们加油的人比心！",
+        "more_en": "Hug Patches first, then make hearts to our fans by the rail!"
+      },
+      "lucky": {
+        "zh": "轻轻拍拍花斑，告诉它放轻松别紧张！",
+        "en": "Pat Patches gently and tell it not to be nervous!",
+        "prompt_zh": "你开跑前总在和花斑小声说话？",
+        "prompt_en": "Are you always whispering to Patches before the gate?",
+        "more_zh": "嗯！我会问它准备好了吗，它点点头我们再一起冲！",
+        "more_en": "Yep! I ask if it is ready, and we wait for its little nod!"
+      },
+      "rival": {
+        "prompt_zh": "前面几位跑得那么快，你不怕吗？",
+        "prompt_en": "The others charge so hard—does it scare you?",
+        "zh": "起初会有点怕，可花斑很稳，后半程很有劲！",
+        "en": "A little at first, yet Patches is steady and gets stronger late!",
+        "more_zh": "要是你在旁边一起跑，我就一点都不紧张啦！",
+        "more_en": "And if you are racing nearby, I do not feel nervous at all!"
+      },
+      "story": {
+        "prompt_zh": "栏杆旁那几位给你鼓掌的人，后来还来吗？",
+        "prompt_en": "Do those fans by the rail still come cheer for you?",
+        "zh": "每次都来呢！哪怕我第一场没进前三，他们也喊得好大声。",
+        "en": "Every single race! Even when I missed top three, they cheered so loud.",
+        "more_zh": "所以我答应过花斑，一定要带他们看一次我们拿第一！",
+        "more_en": "So I promised Patches we would show them a first-place finish!"
+      }
+    }
+  ],
+  "chat_replies": [
+    [
+      "哈！终点见！",
+      "赶紧跟上！",
+      "算你有眼光！",
+      "光发表情可追不上我！",
+      "来，跟我一起冲！"
+    ],
+    [
+      "收到。",
+      "等计时结果。",
+      "收到。注意前方空位。",
+      "表情已读，比赛继续。",
+      "你的判断和我一样。"
+    ],
+    [
+      "嘿嘿，收到！",
+      "一起加油呀！",
+      "这个表情还能这样用呀？",
+      "嘿嘿，我也有一个！",
+      "是给我的？谢谢你呀！"
+    ],
+    [
+      "诶～敢再说一次吗？",
+      "哼哼，我记着呢。",
+      "呵呵，我看见了哦。",
+      "你猜我会回哪一个？",
+      "别光笑呀，我要超车了。"
+    ],
+    [
+      "注意仪态。",
+      "哼，等我超车。",
+      "还算有品位。",
+      "庆祝留到冲线以后吧。",
+      "掌声可以大一点。"
+    ],
+    [
+      "嘿嘿！还挺好玩！",
+      "我也来一个！",
+      "给你回一个！接住哦～",
+      "哇！你也喜欢这个呀？",
+      "嘿嘿，我收到啦！"
+    ]
+  ],
+  "chat_replies_en": [
+    [
+      "Ha! See you at the finish!",
+      "Try to keep up!",
+      "You've got taste!",
+      "Emotes won't catch me!",
+      "Come on, let's go!"
+    ],
+    [
+      "Message received.",
+      "Let’s see the times.",
+      "Copy. Watch the opening ahead.",
+      "Emote received. Back to the race.",
+      "I came to the same conclusion."
+    ],
+    [
+      "Hehe, got it!",
+      "Let’s both try our best!",
+      "You can use that emote like that?",
+      "Hehe, I've got one too!",
+      "For me? Thank you!"
+    ],
+    [
+      "Oh? Say it again, dare you.",
+      "Hmph. I’ll remember that.",
+      "Hehe, I saw that.",
+      "Guess which one I'll send.",
+      "Keep smiling. I'm about to pass."
+    ],
+    [
+      "Mind your manners.",
+      "Wait until I pass you.",
+      "You have decent taste.",
+      "Save the celebration for the finish.",
+      "A little louder with that applause."
+    ],
+    [
+      "Hehe! That was fun!",
+      "My turn!",
+      "Here's one back! Catch!",
+      "Wow, you like that one too?",
+      "Hehe, I got it!"
+    ]
+  ],
+  "reply_stickers": [
+    [
+      0,
+      7,
+      12,
+      14,
+      -6,
+      -11
+    ],
+    [
+      1,
+      7,
+      19,
+      5,
+      -2,
+      -5
+    ],
+    [
+      2,
+      11,
+      13,
+      7,
+      -3,
+      -11
+    ],
+    [
+      1,
+      12,
+      14,
+      5,
+      -6,
+      -11
+    ],
+    [
+      6,
+      9,
+      19,
+      3,
+      -2,
+      -11
+    ],
+    [
+      0,
+      16,
+      19,
+      15,
+      -3,
+      -11
+    ]
+  ],
+  "race_reactions": [
+    {
+      "passed": [
+        {
+          "zh": "拜托，你很弱诶！",
+          "en": "Come on, is that all?",
+          "face": 4
+        },
+        {
+          "zh": "借过！后面有我的蹄印，照着追！",
+          "en": "Coming through! Follow my hoofprints!",
+          "face": 9
+        },
+        {
+          "zh": "我说三二一……好，我先跑了！",
+          "en": "Three, two, one… I'm already gone!",
+          "face": 4
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "喂喂，刚才那下不算！",
+          "en": "Hey, that one doesn't count!",
+          "face": 1
+        },
+        {
+          "zh": "我刚在数观众呢！",
+          "en": "I was busy counting the crowd!",
+          "face": 3
+        },
+        {
+          "zh": "好家伙，你从哪儿钻过去的？",
+          "en": "Whoa! Where did you slip through?",
+          "face": 4
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "接住了！现在轮到我！",
+          "en": "Got it! My turn!",
+          "face": 9
+        },
+        {
+          "zh": "还给你！这下不用谢！",
+          "en": "Right back at you. You're welcome!",
+          "face": 4
+        },
+        {
+          "zh": "这一招我可是练过的！",
+          "en": "I've practiced that one!",
+          "face": 9
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "不错嘛，这次算你厉害！",
+          "en": "Nice! I'll give you that one!",
+          "face": 1
+        },
+        {
+          "zh": "诶？你什么时候学会的？",
+          "en": "Huh? When did you learn that?",
+          "face": 3
+        },
+        {
+          "zh": "刚好接住！再来一回？",
+          "en": "Right on cue! Another round?",
+          "face": 4
+        }
+      ],
+      "trap": [
+        {
+          "zh": "冲呀！我给你点劲！",
+          "en": "Go on! Here's a little push!",
+          "face": 4
+        },
+        {
+          "zh": "看路看路，前头可热闹了！",
+          "en": "Eyes up! It's crowded up there!",
+          "face": 9
+        },
+        {
+          "zh": "借你点速度，看你往哪儿拐！",
+          "en": "How about some speed? Where will you turn?",
+          "face": 4
+        }
+      ]
+    },
+    {
+      "passed": [
+        {
+          "zh": "路线清空，超车完成。",
+          "en": "Clear lane. Pass complete.",
+          "face": 4
+        },
+        {
+          "zh": "你的外侧空了半个马身。",
+          "en": "You left half a length open outside.",
+          "face": 0
+        },
+        {
+          "zh": "现在按第二套方案执行。",
+          "en": "Switching to plan B.",
+          "face": 4
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "这条路线值得记下来。",
+          "en": "That line is worth remembering.",
+          "face": 1
+        },
+        {
+          "zh": "我把切入点算晚了。",
+          "en": "I picked the entry too late.",
+          "face": 3
+        },
+        {
+          "zh": "预留的空位比想象中大。",
+          "en": "The opening was wider than I thought.",
+          "face": 1
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "数据更新。现在轮到我了。",
+          "en": "Data updated. My turn.",
+          "face": 4
+        },
+        {
+          "zh": "落在窗口内。预判成立。",
+          "en": "Inside the window. Prediction confirmed.",
+          "face": 9
+        },
+        {
+          "zh": "记录一下，这一招已经失效。",
+          "en": "For the record, that move stopped working.",
+          "face": 4
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "误差很小，反应不错。",
+          "en": "Precise timing. Nice reaction.",
+          "face": 1
+        },
+        {
+          "zh": "你比我预计的早了一拍。",
+          "en": "You reacted a beat sooner than I expected.",
+          "face": 3
+        },
+        {
+          "zh": "可复现吗？我想再观察一次。",
+          "en": "Can you do that again? I'd like to see it.",
+          "face": 4
+        }
+      ],
+      "trap": [
+        {
+          "zh": "前方拥堵。你还敢提速吗？",
+          "en": "Traffic ahead. Still want to speed up?",
+          "face": 4
+        },
+        {
+          "zh": "这条线的空位只剩一个。",
+          "en": "There's only one opening in that line.",
+          "face": 0
+        },
+        {
+          "zh": "来验证一下你的换道速度。",
+          "en": "Let's test how quickly you can change lanes.",
+          "face": 4
+        }
+      ]
+    },
+    {
+      "passed": [
+        {
+          "zh": "咦？我真的超过你啦！",
+          "en": "Huh? I actually passed you!",
+          "face": 9
+        },
+        {
+          "zh": "嘿嘿！这回换我带路！",
+          "en": "Hehe! I'll lead the way this time!",
+          "face": 4
+        },
+        {
+          "zh": "我本来只是想看一眼前面！",
+          "en": "I only meant to take a peek ahead!",
+          "face": 1
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "等等！你怎么又在前面了？",
+          "en": "Wait! How are you ahead again?",
+          "face": 1
+        },
+        {
+          "zh": "诶，我刚才走错道了吗？",
+          "en": "Did I take the wrong lane again?",
+          "face": 3
+        },
+        {
+          "zh": "我知道啦！先走……然后呢？",
+          "en": "I've got it! Go first… then what?",
+          "face": 4
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "嘿嘿！刚好赶上了！",
+          "en": "Hehe! Just in time!",
+          "face": 9
+        },
+        {
+          "zh": "诶？按对了！我自己都吓一跳！",
+          "en": "I got it! Even I was surprised!",
+          "face": 4
+        },
+        {
+          "zh": "这题我会！不是，我是说这招！",
+          "en": "I know this answer! I mean this move!",
+          "face": 9
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "哇，你也会这一招呀！",
+          "en": "Wow, you know that trick too!",
+          "face": 1
+        },
+        {
+          "zh": "好快！刚才那个你看清了吗？",
+          "en": "So fast! Did you see that clearly?",
+          "face": 4
+        },
+        {
+          "zh": "等等，我刚才是要攻击你吗？",
+          "en": "Wait. Was I trying to hit you?",
+          "face": 3
+        }
+      ],
+      "trap": [
+        {
+          "zh": "咦？你来得及换道吗？",
+          "en": "Oh! Can you switch lanes in time?",
+          "face": 4
+        },
+        {
+          "zh": "慢着，前面那匹是不是没看见你？",
+          "en": "Wait, has that horse ahead seen you?",
+          "face": 1
+        },
+        {
+          "zh": "其实我也不知道哪边有空！",
+          "en": "I don't know which lane is clear either!",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "passed": [
+        {
+          "zh": "别回头哦，我已经在前面了。",
+          "en": "Don't look back. I'm already ahead.",
+          "face": 4
+        },
+        {
+          "zh": "呵呵，你盯错了那条道。",
+          "en": "Hehe, you watched the wrong lane.",
+          "face": 9
+        },
+        {
+          "zh": "刚才我在放你过去。猜猜现在呢？",
+          "en": "I let you through earlier. Guess what now?",
+          "face": 0
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "呵，刚才是我大意了。",
+          "en": "Heh. You caught me off guard.",
+          "face": 1
+        },
+        {
+          "zh": "前面当心。知道为什么吗？",
+          "en": "Careful up there. Want to know why?",
+          "face": 4
+        },
+        {
+          "zh": "这么快就把我的位置拿走了？",
+          "en": "You took my place that easily?",
+          "face": 3
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "呵呵，这一步我早猜到了。",
+          "en": "Hehe. I saw that move coming.",
+          "face": 9
+        },
+        {
+          "zh": "再等半拍，你才有机会。",
+          "en": "Wait half a beat. Then you might have a chance.",
+          "face": 4
+        },
+        {
+          "zh": "谢谢你把机会送过来。",
+          "en": "Thanks for bringing me an opening.",
+          "face": 9
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "这次反应倒是挺快。",
+          "en": "Quick reflexes this time.",
+          "face": 1
+        },
+        {
+          "zh": "有意思，你竟然忍到那一刻。",
+          "en": "Interesting. You waited until the last moment.",
+          "face": 4
+        },
+        {
+          "zh": "被看穿了？那就换一招。",
+          "en": "You saw through it? Time for a different trick.",
+          "face": 3
+        }
+      ],
+      "trap": [
+        {
+          "zh": "呵呵，看看前面。",
+          "en": "Hehe. Look ahead.",
+          "face": 4
+        },
+        {
+          "zh": "前面很挤，我偏想送你一程。",
+          "en": "It's crowded ahead. Let me give you a push.",
+          "face": 9
+        },
+        {
+          "zh": "选一边吧。我可没说哪边是空的。",
+          "en": "Pick a side. I never said either was clear.",
+          "face": 4
+        }
+      ]
+    },
+    {
+      "passed": [
+        {
+          "zh": "请保持优雅，我要领先了。",
+          "en": "Stay graceful. I'm taking the lead.",
+          "face": 4
+        },
+        {
+          "zh": "这才是冠军该走的路线。",
+          "en": "Now that's a champion's line.",
+          "face": 9
+        },
+        {
+          "zh": "麻烦让一下，我的披风要过去。",
+          "en": "Make way. My cape is coming through.",
+          "face": 4
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "哼，暂时把位置借给你。",
+          "en": "Hmph. You can borrow my spot.",
+          "face": 1
+        },
+        {
+          "zh": "别弄皱我的披风！",
+          "en": "Don't wrinkle my cape!",
+          "face": 3
+        },
+        {
+          "zh": "好吧，这下确实挺漂亮。",
+          "en": "Fine. That was a clean pass.",
+          "face": 4
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "这种小动作可拦不住我。",
+          "en": "Little tricks won't stop me.",
+          "face": 9
+        },
+        {
+          "zh": "你也该学学什么叫从容。",
+          "en": "You could learn a little poise.",
+          "face": 4
+        },
+        {
+          "zh": "听见掌声了吗？是给我的。",
+          "en": "Hear that applause? That's for me.",
+          "face": 9
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "哼，这次做得还算漂亮。",
+          "en": "Hmph. That was nicely done.",
+          "face": 1
+        },
+        {
+          "zh": "这份时机拿捏，勉强及格。",
+          "en": "That timing was passable, barely.",
+          "face": 4
+        },
+        {
+          "zh": "看得出你至少有认真练。",
+          "en": "I can tell you've been practicing.",
+          "face": 3
+        }
+      ],
+      "trap": [
+        {
+          "zh": "有空位的话，你就试试。",
+          "en": "Try it, if you can find an opening.",
+          "face": 4
+        },
+        {
+          "zh": "赶路也讲排场，你准备好了吗？",
+          "en": "A proper charge needs style. Ready?",
+          "face": 9
+        },
+        {
+          "zh": "前面的位置可没替你留。",
+          "en": "Nobody kept that spot ahead for you.",
+          "face": 4
+        }
+      ]
+    },
+    {
+      "passed": [
+        {
+          "zh": "嘿嘿，换你来追我啦～",
+          "en": "Hehe, your turn to chase me!",
+          "face": 9
+        },
+        {
+          "zh": "诶！这次该夸我啦！",
+          "en": "Hey! Now's the time to praise me!",
+          "face": 4
+        },
+        {
+          "zh": "刚才说等我的是谁呀？",
+          "en": "Who was going to wait for me?",
+          "face": 9
+        }
+      ],
+      "overtake": [
+        {
+          "zh": "哇，你跑得好快！等等我嘛～",
+          "en": "Wow! You're fast. Wait for me!",
+          "face": 1
+        },
+        {
+          "zh": "哼！你偷跑，我看见啦！",
+          "en": "Hmph! You got a jump on me!",
+          "face": 3
+        },
+        {
+          "zh": "刚才没准备好，再来一次嘛！",
+          "en": "I wasn't ready! One more go?",
+          "face": 4
+        }
+      ],
+      "ai_counter": [
+        {
+          "zh": "嘿嘿，我是不是很厉害？",
+          "en": "Hehe, wasn't that great?",
+          "face": 9
+        },
+        {
+          "zh": "吓到我啦！不过我接住了！",
+          "en": "You scared me! But I got it!",
+          "face": 4
+        },
+        {
+          "zh": "看见了吗？我可没慌！",
+          "en": "Did you see? I didn't panic at all!",
+          "face": 9
+        }
+      ],
+      "counter_ok": [
+        {
+          "zh": "哼！你怎么一下就接住啦？",
+          "en": "Hmph! How did you time that so well?",
+          "face": 1
+        },
+        {
+          "zh": "好吧，有一点帅。只有一点哦！",
+          "en": "Okay, that was a little cool. Just a little!",
+          "face": 4
+        },
+        {
+          "zh": "哎呀，下次能让我也试试吗？",
+          "en": "Aww, can I try that next time?",
+          "face": 3
+        }
+      ],
+      "trap": [
+        {
+          "zh": "哎呀，前面还有人呢～",
+          "en": "Oops! There's still someone ahead!",
+          "face": 4
+        },
+        {
+          "zh": "送你一小段加速，接好啦！",
+          "en": "Here's a little boost. Catch!",
+          "face": 9
+        },
+        {
+          "zh": "你躲得开吧？可别记我仇呀！",
+          "en": "You'll dodge it, right? Don't hold a grudge!",
+          "face": 3
+        }
+      ]
+    }
+  ],
+  "post_race": [
+    {
+      "race": {
+        "pose": 2,
+        "zh": [
+          "这场跑得过瘾吗？",
+          "太过瘾了！我本来想留力，听到观众一喊，脚先动了。",
+          "下场见。记得别在最后一段给我留空位！"
+        ],
+        "en": [
+          "Was that a good race?",
+          "A blast! I meant to save energy. Then the crowd roared and off I went.",
+          "See you next time. Don't leave me an opening on the home stretch!"
+        ]
+      },
+      "tactics": {
+        "pose": 1,
+        "zh": [
+          "你超车前都在看哪儿？",
+          "看别人盯哪边。我先晃一下，再从他没看的那边溜过去。",
+          "不过这招只能用一次。第二次……就得装自己也不知道往哪跑！"
+        ],
+        "en": [
+          "Where do you look before a pass?",
+          "Wherever they're looking. I feint, then slip past on the other side.",
+          "It only works once. Next time I pretend I don't know where I'm going!"
+        ]
+      },
+      "relax": {
+        "pose": 3,
+        "zh": [
+          "你赛前都在干什么？",
+          "练习领奖表情！先冷静三秒，再忍不住笑。",
+          "别跟别人说，我连没拿奖时的表情也练过。"
+        ],
+        "en": [
+          "What do you do before a race?",
+          "Practice my podium face. Stay cool for three seconds, then grin.",
+          "Don't tell anyone, but I practice my losing face too."
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "你和赤栗怎么配合？",
+          "它一甩耳朵，我就知道它闲不住了。",
+          "我一笑，它也知道我想加速。挺公平！"
+        ],
+        "en": [
+          "How do you work with Chestnut?",
+          "One flick of its ears and I know it's ready to go.",
+          "One grin from me and it knows I want a boost. Fair enough!"
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "你第一次上场记得什么？",
+          "记得我冲过了线，还多跑了半圈。",
+          "那时比今天还爱出风头。好吧，差不多！"
+        ],
+        "en": [
+          "What do you remember from your first race?",
+          "I crossed the finish and ran half a lap more.",
+          "I was even more of a show-off back then. Well, about the same."
+        ]
+      }
+    },
+    {
+      "race": {
+        "pose": 1,
+        "zh": [
+          "你怎么评价这一场？",
+          "出发比预期快，中段有两次换道浪费了距离。",
+          "终点前那段倒值得记下来。别人会变，路线可以复盘。"
+        ],
+        "en": [
+          "How would you rate the race?",
+          "The start was faster than expected. Two lane changes cost me distance.",
+          "I'd review the home stretch. Rivals change. You can still study the lines."
+        ]
+      },
+      "tactics": {
+        "pose": 0,
+        "zh": [
+          "你什么时候决定加速？",
+          "前面至少要有一段能跑开的空位。光看距离还不够。",
+          "留一手，等最前面那匹的路线确定了再出手。"
+        ],
+        "en": [
+          "When do you decide to boost?",
+          "When there's room to run. Distance alone isn't enough.",
+          "Save a charge until you see which line the leader takes."
+        ]
+      },
+      "relax": {
+        "pose": 2,
+        "zh": [
+          "你平时也这么认真吗？",
+          "没有。点晚饭时我只做三项评分。",
+          "味道、价格，以及吃完还能不能跑。"
+        ],
+        "en": [
+          "Are you always this serious?",
+          "No. I score dinner on only three criteria.",
+          "Taste, price, and whether I can still run afterward."
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "苍影会给你什么信号？",
+          "出弯时它会把步幅放长。我等那一步才动。",
+          "最早是我在教它。后来发现，它也在教我。"
+        ],
+        "en": [
+          "What cue does Shadow give you?",
+          "It lengthens a stride at the exit. I move on that step.",
+          "At first I was teaching it. Then I realised it was teaching me too."
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "你为什么开始记每场比赛？",
+          "第一场跑完只记得自己很快。录像说刚好相反。",
+          "后来我学会把感觉和计时放在一起看。"
+        ],
+        "en": [
+          "Why do you record every race?",
+          "I remembered being fast in my first race. The replay disagreed.",
+          "Now I compare what I felt with the clock."
+        ]
+      }
+    },
+    {
+      "race": {
+        "pose": 2,
+        "zh": [
+          "刚才哪一段最有意思？",
+          "大家突然挤到一起的时候！我想跟过去，又忘了要跟谁。",
+          "最后我盯着自己那条道跑，居然就顺了。"
+        ],
+        "en": [
+          "What was the most fun part?",
+          "When everyone bunched up! I wanted to follow, then forgot who to follow.",
+          "In the end I watched my own lane and it all worked out."
+        ]
+      },
+      "tactics": {
+        "pose": 1,
+        "zh": [
+          "你出弯为什么总在笑？",
+          "因为我会数还有几个弯。数错就只好再数一遍。",
+          "不过别只看脚下哦，前面有空位的时候最容易错过。"
+        ],
+        "en": [
+          "Why do you smile coming out of a bend?",
+          "I count how many turns are left. If I get it wrong, I count again.",
+          "But look ahead too. An open lane can be easy to miss."
+        ]
+      },
+      "relax": {
+        "pose": 3,
+        "zh": [
+          "今天这场跑得开心吗？",
+          "有！为什么赛马不戴手表？因为它只有蹄表！",
+          "诶，你怎么没笑？等我重新想一个！"
+        ],
+        "en": [
+          "Did you have fun out there?",
+          "Why don't horses wear watches? They can't keep their hooves on the hands!",
+          "Wait, you didn't laugh. Let me think of another!"
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "银风和你谁更有默契？",
+          "银风吧。它总知道我什么时候在数错圈。",
+          "我紧张时就拍拍它，它会把耳朵转向我。"
+        ],
+        "en": [
+          "Who has the better instincts, you or Silver?",
+          "Silver. It always knows when I've lost count.",
+          "When I'm nervous I pat it. It turns an ear toward me."
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "最早是谁教你骑马的？",
+          "家里人先教我怎么让马愿意靠近。",
+          "我到现在还记得，得先伸手等它闻。"
+        ],
+        "en": [
+          "Who first taught you to ride?",
+          "My family taught me how to let a horse come to me.",
+          "I still remember to hold out my hand and let it sniff."
+        ]
+      }
+    },
+    {
+      "race": {
+        "pose": 3,
+        "zh": [
+          "你是不是一直在等我先加速？",
+          "呵呵，急着冲的人，通常顾不上看后面。",
+          "不过这次你回头看了一眼。下次我得换个地方等。"
+        ],
+        "en": [
+          "Were you waiting for me to boost first?",
+          "Hehe. Riders in a hurry rarely watch behind them.",
+          "You did look back this time. I'll have to wait somewhere else."
+        ]
+      },
+      "tactics": {
+        "pose": 1,
+        "zh": [
+          "你为什么有时故意让出内侧？",
+          "让你看到一条好走的道，总比让你看见我在做什么容易。",
+          "下次有条道突然空出来，记得先看看它通往哪里。"
+        ],
+        "en": [
+          "Why do you sometimes give up the inside?",
+          "It's easier to let you see an open lane than to let you see my plan.",
+          "Next time a lane opens, check where it leads."
+        ]
+      },
+      "relax": {
+        "pose": 2,
+        "zh": [
+          "你每次都在笑什么？",
+          "笑你认真猜我在想什么。",
+          "这次告诉你吧。我在想休息室还有没有布丁。"
+        ],
+        "en": [
+          "What are you always smiling at?",
+          "How hard you try to guess what I'm thinking.",
+          "I'll tell you this time. I wonder if there's pudding left."
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "黑曜也和你一样爱留一手吗？",
+          "它只在看见空道时才动。比我耐心多了。",
+          "呵呵，你以为那些招数都是我想的吗？"
+        ],
+        "en": [
+          "Does Onyx hold back a trick too?",
+          "It only moves when it sees an opening. More patient than I am.",
+          "Hehe. You thought all those tricks were mine?"
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "你什么时候学会骗道的？",
+          "刚上场时我总被人挤出去。后来我学会等。",
+          "等到那个人回头，空位就来了。"
+        ],
+        "en": [
+          "When did you learn to feint?",
+          "I used to get pushed wide. Then I learned to wait.",
+          "Once they look back, the opening appears."
+        ]
+      }
+    },
+    {
+      "race": {
+        "pose": 3,
+        "zh": [
+          "这场有让你意外的地方吗？",
+          "最后一段的掌声比我预期的大。你跑得也比我想的稳。",
+          "当然，掌声究竟是给谁的，下次再见分晓。"
+        ],
+        "en": [
+          "Did anything surprise you?",
+          "The applause was louder than I expected. Your ride was steadier, too.",
+          "As for who they were cheering for, we'll see next time."
+        ]
+      },
+      "tactics": {
+        "pose": 1,
+        "zh": [
+          "你怎么找出弯的超车机会？",
+          "我先盯出口，等前面的马把路线跑直再动。",
+          "抢一点位置可以。把我的披风挤乱就免谈。"
+        ],
+        "en": [
+          "How do you find a pass out of a turn?",
+          "Watch the exit. Move once the horse ahead straightens out.",
+          "Taking a gap is fine. Wrinkling my cape is not."
+        ]
+      },
+      "relax": {
+        "pose": 2,
+        "zh": [
+          "你为什么总记得每座奖杯？",
+          "当然记得。每一座都提醒我赢的是哪一场。",
+          "而且擦亮它们比数金币麻烦多了。"
+        ],
+        "en": [
+          "How do you remember every trophy?",
+          "Each one reminds me which race I won.",
+          "And polishing them takes much longer than counting coins."
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "金麦比赛前喜欢什么？",
+          "喜欢我替它把鬃毛梳齐。一根乱发也会甩头。",
+          "所以别笑我的仪态，它对自己比我还严格。"
+        ],
+        "en": [
+          "What does Goldie like before a race?",
+          "A tidy mane. One stray hair and it shakes its head.",
+          "Don't laugh about my poise. It's stricter than I am."
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "你小时候就想拿奖杯吗？",
+          "起先只是想站在看台也看得见的地方。",
+          "后来明白，得先跑给自己看。"
+        ],
+        "en": [
+          "Did you want trophies as a kid?",
+          "At first I just wanted people in the stands to see me.",
+          "Later I learned to race for myself first."
+        ]
+      }
+    },
+    {
+      "race": {
+        "pose": 2,
+        "zh": [
+          "刚才是不是差一点就追上了？",
+          "我都听见你的马蹄声了！还是忍住没回头，我很厉害吧？",
+          "下次你要是看见我冲过来，记得帮我喊一声加油哦！"
+        ],
+        "en": [
+          "Did you nearly catch up there?",
+          "I heard your hoofbeats! I still didn't look back. Pretty good, right?",
+          "Next time you see me coming, cheer for me, okay?"
+        ]
+      },
+      "tactics": {
+        "pose": 1,
+        "zh": [
+          "你最后那一下为什么走外道？",
+          "因为前面挤得我都快把马尾碰到了！外面绕远一点，至少能跑开。",
+          "哼，我也是会想办法的。快夸我！"
+        ],
+        "en": [
+          "Why did you go wide at the end?",
+          "I was almost on someone's tail! The outside was longer, but I had room to move.",
+          "Hmph. I can plan too. Go on, praise me!"
+        ]
+      },
+      "relax": {
+        "pose": 3,
+        "zh": [
+          "今天收到最喜欢的表情是什么？",
+          "当然是爱心！不过你要是发个大笑，我也会笑回来。",
+          "还有，不准拿打瞌睡的那个回我！"
+        ],
+        "en": [
+          "What was your favorite emote today?",
+          "Hearts, obviously! But if you send a laugh, I'll laugh back.",
+          "And don't you dare send me the sleepy one!"
+        ]
+      },
+      "bond": {
+        "pose": 2,
+        "zh": [
+          "花斑会认出你的声音吗？",
+          "会呀！我一小声说加油，它就竖起耳朵。",
+          "当然，我也会等它点点头再出发。"
+        ],
+        "en": [
+          "Does Patches know your voice?",
+          "Of course! I whisper good luck and its ears prick up.",
+          "And I wait for a little nod before we go."
+        ]
+      },
+      "past": {
+        "pose": 3,
+        "zh": [
+          "你第一次跑完最想找谁？",
+          "我想找在栏杆旁对我比心的人！",
+          "那时我没上领奖台，可他们还是给我鼓掌。"
+        ],
+        "en": [
+          "Who did you look for after your first race?",
+          "The person making a heart by the rail!",
+          "I missed the podium, but they cheered for me anyway."
+        ]
+      }
+    }
+  ],
+  "scene_prompts": {
+    "hello": {
+      "zh": "马上开跑了，你紧张吗？",
+      "en": "Race is about to start. Feeling nervous?"
+    },
+    "joke": {
+      "zh": "上场前，来点轻松的？",
+      "en": "Something light before we race?"
+    },
+    "praise": {
+      "zh": "你今天热身跑得很漂亮。",
+      "en": "You looked great in warmups today."
+    },
+    "special": {
+      "zh": "你上场前有什么习惯？",
+      "en": "Any pre-race rituals?"
+    },
+    "snack": {
+      "zh": "赛前你平时吃什么保持状态？",
+      "en": "What do you eat before a race?"
+    },
+    "weather": {
+      "zh": "今天赛道风好大，有关系吗？",
+      "en": "Wind feels strong today. Any trouble?"
+    },
+    "dream": {
+      "zh": "拿了冠军你最想做什么？",
+      "en": "What will you do if you win it all?"
+    },
+    "lucky": {
+      "zh": "你有什么开跑前的小习惯吗？",
+      "en": "Got any pre-race lucky habits?"
+    },
+    "rival": {
+      "zh": "这几位对手里，你最在意谁？",
+      "en": "Which rival are you watching most?"
+    },
+    "story": {
+      "zh": "能聊聊你和马以前的往事吗？",
+      "en": "Care to share a story about you and your horse?"
+    }
+  },
+  "finish_reactions": [
+    {
+      "win": [
+        {
+          "zh": "现在你知道谁是老大了吧？",
+          "en": "Now you know who's boss!",
+          "face": 9
+        },
+        {
+          "zh": "哈哈！蹄印都快冒烟了！",
+          "en": "Ha! My hoofprints are smoking!",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "哎呀！下回我可要追回来！",
+          "en": "Aw! I'll catch you next time!",
+          "face": 1
+        },
+        {
+          "zh": "这场算你的！下场见！",
+          "en": "This one's yours! See you next time!",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "win": [
+        {
+          "zh": "路线有效。第一名已确认。",
+          "en": "Line confirmed. First place.",
+          "face": 9
+        },
+        {
+          "zh": "节奏吻合，结果如预期。",
+          "en": "Pace on target. Result as expected.",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "出弯晚了半拍。回去复盘。",
+          "en": "Half a beat late at the exit. Time to review.",
+          "face": 1
+        },
+        {
+          "zh": "记录下误差，下次修正。",
+          "en": "Log the error. Adjust next time.",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "win": [
+        {
+          "zh": "诶？我真的是第一呀！",
+          "en": "Huh? I really came first!",
+          "face": 9
+        },
+        {
+          "zh": "嘿嘿，这回没数错圈！",
+          "en": "Hehe! I counted my laps right!",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "差一点！我还想再跑一圈。",
+          "en": "So close! I want another lap.",
+          "face": 1
+        },
+        {
+          "zh": "下次出弯我可要看仔细啦。",
+          "en": "I'll watch the exit next time.",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "win": [
+        {
+          "zh": "呵呵，最后一步猜中了。",
+          "en": "Hehe. The last move worked.",
+          "face": 9
+        },
+        {
+          "zh": "终点见。我说过的。",
+          "en": "See you at the finish. I told you so.",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "呵，这回让你先笑。",
+          "en": "Heh. You can laugh first this time.",
+          "face": 1
+        },
+        {
+          "zh": "你看穿一招。我还有别的。",
+          "en": "You saw through one trick. I have others.",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "win": [
+        {
+          "zh": "获胜是自然的。",
+          "en": "Winning comes naturally.",
+          "face": 9
+        },
+        {
+          "zh": "请把掌声留到我行礼之后。",
+          "en": "Hold your applause until I've bowed.",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "这次的掌声你当得起。",
+          "en": "You earned that applause this time.",
+          "face": 1
+        },
+        {
+          "zh": "下次我会赢得更漂亮。",
+          "en": "Next time I'll win with more grace.",
+          "face": 3
+        }
+      ]
+    },
+    {
+      "win": [
+        {
+          "zh": "知道本姑娘的厉害了吧～",
+          "en": "Now you know what I can do!",
+          "face": 9
+        },
+        {
+          "zh": "耶！说好了，要夸我哦！",
+          "en": "Yay! You promised to praise me!",
+          "face": 4
+        }
+      ],
+      "loss": [
+        {
+          "zh": "哼，就差一点点嘛！",
+          "en": "Hmph, I was so close!",
+          "face": 1
+        },
+        {
+          "zh": "下次我会追上你的，真的！",
+          "en": "I'll catch you next time. Really!",
+          "face": 3
+        }
+      ]
+    }
+  ],
+  "red_reply": {
+    "zh": "我不跟你们玩了！",
+    "en": "I'm not playing with you anymore!"
+  },
+  "peer_lines": [
+    {
+      "zh": [
+        "让条路，我要带头冲啦！",
+        "谁跟我比下一段？"
+      ],
+      "en": [
+        "Make room! I'm taking the lead!",
+        "Who wants to race the next stretch?"
+      ]
+    },
+    {
+      "zh": [
+        "保持间距。下一段还有空位。",
+        "别急，弯后才值得加速。"
+      ],
+      "en": [
+        "Keep a gap. There's room ahead.",
+        "Easy. Save the boost for the exit."
+      ]
+    },
+    {
+      "zh": [
+        "你也在数还剩几个弯吗？",
+        "嘿嘿！我跟得上你！"
+      ],
+      "en": [
+        "Are you counting the turns too?",
+        "Hehe! I can keep up!"
+      ]
+    },
+    {
+      "zh": [
+        "你猜我会从哪边超过去？",
+        "这条道突然空了，真巧。"
+      ],
+      "en": [
+        "Guess which side I'll pass on.",
+        "A gap opened. What a coincidence."
+      ]
+    },
+    {
+      "zh": [
+        "过弯也请保持体面。",
+        "下一段看我的披风。"
+      ],
+      "en": [
+        "Keep your composure through the turn.",
+        "Watch my cape on the next stretch."
+      ]
+    },
+    {
+      "zh": [
+        "跟我一起冲嘛！",
+        "过了弯夸我一句好不好？"
+      ],
+      "en": [
+        "Come on, let's race together!",
+        "Praise me after the bend, okay?"
+      ]
+    }
+  ],
+  "reaction_replies": [
+    {
+      "cheer": {
+        "zh": "够义气！一起冲！",
+        "en": "That's the spirit! Let's go!",
+        "icon": 7,
+        "face": 9
+      },
+      "tease": {
+        "zh": "哟，嘴比马跑得快！",
+        "en": "Your mouth is faster than your horse!",
+        "icon": 12,
+        "face": 4
+      }
+    },
+    {
+      "cheer": {
+        "zh": "收到。保持这个节奏。",
+        "en": "Copy. Keep that pace.",
+        "icon": 7,
+        "face": 4
+      },
+      "tease": {
+        "zh": "计时器会给出答案。",
+        "en": "The clock will settle that.",
+        "icon": 1,
+        "face": 0
+      }
+    },
+    {
+      "cheer": {
+        "zh": "嘿嘿！也给你加油！",
+        "en": "Hehe! Good luck to you too!",
+        "icon": 19,
+        "face": 9
+      },
+      "tease": {
+        "zh": "咦？这题我可没输！",
+        "en": "Huh? I didn't lose that one!",
+        "icon": 13,
+        "face": 1
+      }
+    },
+    {
+      "cheer": {
+        "zh": "呵呵，我记住这句了。",
+        "en": "Hehe. I'll remember that.",
+        "icon": 19,
+        "face": 4
+      },
+      "tease": {
+        "zh": "别急，我还没出招。",
+        "en": "Easy. I haven't made my move.",
+        "icon": 1,
+        "face": 3
+      }
+    },
+    {
+      "cheer": {
+        "zh": "眼光不错。",
+        "en": "You have good taste.",
+        "icon": 19,
+        "face": 4
+      },
+      "tease": {
+        "zh": "请用名次证明。",
+        "en": "Prove it at the finish.",
+        "icon": -2,
+        "face": 0
+      }
+    },
+    {
+      "cheer": {
+        "zh": "嘿嘿！送你一个心～",
+        "en": "Hehe! Have a heart!",
+        "icon": 16,
+        "face": 9
+      },
+      "tease": {
+        "zh": "哼！那你追上来呀！",
+        "en": "Hmph! Catch me first!",
+        "icon": 10,
+        "face": 3
+      }
+    }
+  ],
+  "overdrive_lines": [
+    {
+      "start": {
+        "zh": [
+          "看我的烈焰冲刺！",
+          "给我让出一条道！"
+        ],
+        "en": [
+          "Fire it up!",
+          "Make room for me!"
+        ]
+      },
+      "ram": {
+        "zh": [
+          "这下够劲了吧！",
+          "接招，别掉队！"
+        ],
+        "en": [
+          "How's that for impact?",
+          "Take that! Keep up!"
+        ]
+      },
+      "hit": {
+        "zh": [
+          "好家伙，真敢撞！",
+          "哎呀，等我稳一下！"
+        ],
+        "en": [
+          "Whoa, you actually rammed me!",
+          "Give me a second!"
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "接住了，轮到我啦！",
+          "嘿，这一下够漂亮！"
+        ],
+        "en": [
+          "Caught it! My turn!",
+          "Now that was clean!"
+        ]
+      },
+      "empty": {
+        "zh": [
+          "先歇一拍，等我再来！",
+          "火还没熄呢！"
+        ],
+        "en": [
+          "One breath, then I'll be back!",
+          "The fire isn't out yet!"
+        ]
+      }
+    },
+    {
+      "start": {
+        "zh": [
+          "切换到节能暴走。",
+          "保持输出，冲刺开始。"
+        ],
+        "en": [
+          "Switching to efficient overdrive.",
+          "Holding output. Starting my sprint."
+        ]
+      },
+      "ram": {
+        "zh": [
+          "接触成立，继续推进。",
+          "路线腾出来了。"
+        ],
+        "en": [
+          "Contact confirmed. Moving on.",
+          "The line is open now."
+        ]
+      },
+      "hit": {
+        "zh": [
+          "受到撞击，重算路线。",
+          "先把节奏稳住。"
+        ],
+        "en": [
+          "Contact taken. Recalculating.",
+          "Steady the pace first."
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "时机正确，能量回升。",
+          "反击完成，按原路线走。"
+        ],
+        "en": [
+          "Timing correct. Energy restored.",
+          "Counter complete. Hold the line."
+        ]
+      },
+      "empty": {
+        "zh": [
+          "能量耗尽，恢复常速。",
+          "先攒能量，下个弯再试。"
+        ],
+        "en": [
+          "Energy spent. Returning to pace.",
+          "Recharge. Try again at the next bend."
+        ]
+      }
+    },
+    {
+      "start": {
+        "zh": [
+          "嘿嘿，给小马加把劲！",
+          "哇，真的快起来啦！"
+        ],
+        "en": [
+          "Hehe, let's give it a push!",
+          "Wow, we're really moving now!"
+        ]
+      },
+      "ram": {
+        "zh": [
+          "咦？碰到了诶！",
+          "嘿嘿，借过一下！"
+        ],
+        "en": [
+          "Huh? That connected!",
+          "Hehe, coming through!"
+        ]
+      },
+      "hit": {
+        "zh": [
+          "呜哇，吓我一跳！",
+          "等等，刚才谁碰我？"
+        ],
+        "en": [
+          "Whoa, you scared me!",
+          "Wait, who bumped me?"
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "这题我会！",
+          "嘿嘿，刚好接住！"
+        ],
+        "en": [
+          "I know this one!",
+          "Hehe, I caught it!"
+        ]
+      },
+      "empty": {
+        "zh": [
+          "呼，能量跑哪儿去了？",
+          "先歇一下下！"
+        ],
+        "en": [
+          "Phew. Where did my energy go?",
+          "A tiny breather!"
+        ]
+      }
+    },
+    {
+      "start": {
+        "zh": [
+          "呵呵，现在轮到我。",
+          "想拦我？试试看。"
+        ],
+        "en": [
+          "Hehe. My turn now.",
+          "Think you can stop me? Try."
+        ]
+      },
+      "ram": {
+        "zh": [
+          "这一下你猜到了吗？",
+          "挡路可是有代价的。"
+        ],
+        "en": [
+          "Did you see that coming?",
+          "Blocking me has a price."
+        ]
+      },
+      "hit": {
+        "zh": [
+          "呵，你还有点本事。",
+          "哦？这是第二招？"
+        ],
+        "en": [
+          "Heh. You've got some skill.",
+          "Oh? Was that your second trick?"
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "呵呵，我早猜到了。",
+          "还给你，原封不动。"
+        ],
+        "en": [
+          "Hehe. I saw it coming.",
+          "Here. Right back at you."
+        ]
+      },
+      "empty": {
+        "zh": [
+          "先让你松口气。",
+          "呵，下次再试你。"
+        ],
+        "en": [
+          "You can breathe for now.",
+          "Heh. We'll try again later."
+        ]
+      }
+    },
+    {
+      "start": {
+        "zh": [
+          "请看好了，什么叫从容。",
+          "金麦，让他们看看。"
+        ],
+        "en": [
+          "Watch what composure looks like.",
+          "Goldie, show them."
+        ]
+      },
+      "ram": {
+        "zh": [
+          "路已经让出来了。",
+          "借过，别碰我的披风。"
+        ],
+        "en": [
+          "That clears the way.",
+          "Coming through. Mind my cape."
+        ]
+      },
+      "hit": {
+        "zh": [
+          "赛道上也请讲礼貌。",
+          "哼，这一下我记住了。"
+        ],
+        "en": [
+          "Manners still apply on the track.",
+          "Hmph. I'll remember that."
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "时机总要拿捏得宜。",
+          "这才是像样的反击。"
+        ],
+        "en": [
+          "Timing ought to be exact.",
+          "Now that's a proper counter."
+        ]
+      },
+      "empty": {
+        "zh": [
+          "暂且收势，保持仪态。",
+          "节奏留给下一弯。"
+        ],
+        "en": [
+          "Ease off. Keep your poise.",
+          "Save the pace for the next bend."
+        ]
+      }
+    },
+    {
+      "start": {
+        "zh": [
+          "嘿嘿，花瓣来啦～",
+          "花斑，跟我一起冲！"
+        ],
+        "en": [
+          "Hehe, here come the petals!",
+          "Patches, let's go!"
+        ]
+      },
+      "ram": {
+        "zh": [
+          "哎呀，借我过一下嘛！",
+          "嘿嘿，这下换我在前面！"
+        ],
+        "en": [
+          "Oops, let me through!",
+          "Hehe, my turn in front!"
+        ]
+      },
+      "hit": {
+        "zh": [
+          "哼，撞我可不许笑！",
+          "好疼！等我追上你！"
+        ],
+        "en": [
+          "Hmph! No laughing if you bump me!",
+          "Ow! Just wait till I catch you!"
+        ]
+      },
+      "perfect": {
+        "zh": [
+          "嘿嘿，接住啦！",
+          "快夸我，我接得好准！"
+        ],
+        "en": [
+          "Hehe, caught it!",
+          "Praise me! I timed it perfectly!"
+        ]
+      },
+      "empty": {
+        "zh": [
+          "能量用光啦，等我一下～",
+          "花瓣先收起来咯！"
+        ],
+        "en": [
+          "I'm out of energy. Wait for me!",
+          "That's enough petals for now!"
+        ]
+      }
+    }
+  ],
+  "nearby_interactions": [
+    {
+      "approach": {
+        "zh": "别挡道！前面就是我的主场！",
+        "en": "Out of my way! This track is mine!"
+      },
+      "zh": [
+        "红骑，下一段可要跟紧！",
+        "这一段跑得漂亮，红骑！",
+        "红骑，帮我冲一下？"
+      ],
+      "en": [
+        "Try to keep up, Red!",
+        "Nice run, Red!",
+        "Red, give me a push?"
+      ]
+    },
+    {
+      "approach": {
+        "zh": "你这条路线还能再快一点。",
+        "en": "There’s a faster line through here."
+      },
+      "zh": [
+        "蓝骑，再算算我会从哪超。",
+        "蓝骑，你的路线真稳。",
+        "蓝骑，能配合我提速吗？"
+      ],
+      "en": [
+        "Predict my next move, Blue.",
+        "Clean line, Blue.",
+        "Blue, can we pick up the pace?"
+      ]
+    },
+    {
+      "approach": {
+        "zh": "追上你啦！这个弯一起过？",
+        "en": "Caught you! Take this turn together?"
+      },
+      "zh": [
+        "绿骑，你跟得上吗？",
+        "绿骑，跑得真好！",
+        "绿骑，一起冲一段吧？"
+      ],
+      "en": [
+        "Can you keep up, Green?",
+        "You’re running well, Green!",
+        "Green, let’s sprint together?"
+      ]
+    },
+    {
+      "approach": {
+        "zh": "呵呵，猜猜我会从哪边超过你。",
+        "en": "Heh. Guess which side I’ll pass on."
+      },
+      "zh": [
+        "紫骑，这次你的花招不灵。",
+        "紫骑，这手超车真漂亮。",
+        "紫骑，借我一点助推？"
+      ],
+      "en": [
+        "No tricks this time, Purple.",
+        "Nice pass, Purple.",
+        "Purple, how about a boost?"
+      ]
+    },
+    {
+      "approach": {
+        "zh": "借过。希望我没打乱你的节奏。",
+        "en": "Passing through. I hope I haven’t upset your pace."
+      },
+      "zh": [
+        "黄骑，我可不会让你轻松赢。",
+        "黄骑，这一段跑得很优雅。",
+        "黄骑，能否助我一程？"
+      ],
+      "en": [
+        "I won’t make it easy, Gold.",
+        "Elegant riding, Gold.",
+        "Gold, may I ask for a boost?"
+      ]
+    },
+    {
+      "approach": {
+        "zh": "追到你啦！夸一句嘛～",
+        "en": "Caught you! Can I get a compliment?"
+      },
+      "zh": [
+        "粉骑，等着看我反超吧！",
+        "粉骑，你刚才跑得真棒！",
+        "粉骑，可以拉我一把嘛？"
+      ],
+      "en": [
+        "Watch me pass, Pink!",
+        "That was great, Pink!",
+        "Pink, a little push, please?"
+      ]
+    }
+  ],
+  "bribe_dialogue": [
+    {
+      "success": {
+        "zh": "行！后半程我推你一把，可别落后了！",
+        "en": "Deal! I will push you late—just keep up!"
+      },
+      "fail": {
+        "zh": "少来这套！想赢就靠实力跑过去！",
+        "en": "Forget it! Beat me with real speed!"
+      }
+    },
+    {
+      "success": {
+        "zh": "约定成立。后段我会按计划给你一次加速。",
+        "en": "Agreed. One planned boost in the final stretch."
+      },
+      "fail": {
+        "zh": "代价太高，这笔交易不在我的计划里。",
+        "en": "Too risky. That deal is not in my plan."
+      }
+    },
+    {
+      "success": {
+        "zh": "好呀好呀，后半程顺手推你一下也没关系～",
+        "en": "Sure thing! Happy to give you a push later~"
+      },
+      "fail": {
+        "zh": "哎呀，这个还是算了吧，开心比赛最重要嘛。",
+        "en": "Ah, better not—racing for fun matters more!"
+      }
+    },
+    {
+      "success": {
+        "zh": "呵呵，有意思。后半程可别错过我的信号。",
+        "en": "Heh, interesting. Do not miss my signal late."
+      },
+      "fail": {
+        "zh": "这点金币可打动不了我，还是收回去吧。",
+        "en": "That small offer will not move me. Keep your coins."
+      }
+    },
+    {
+      "success": {
+        "zh": "成交。能用金币解决的事，本就很优雅。",
+        "en": "Done. Anything gold can settle is quite elegant."
+      },
+      "fail": {
+        "zh": "抱歉，我的名次可不是这么点金币能换的。",
+        "en": "Sorry, my placement is not for sale at that price."
+      }
+    },
+    {
+      "success": {
+        "zh": "好呀！后半程我会偷偷帮你加速一次的！",
+        "en": "Okay! I will sneak you a boost later on!"
+      },
+      "fail": {
+        "zh": "唔……这样好像不太好呢，金币还是还给你吧。",
+        "en": "Um... that feels a bit wrong. Here are your coins back."
+      }
+    }
+  ],
+  "offer_reply": [
+    {
+      "accept": {
+        "zh": "痛快！待会儿赛道上见，别忘了给我加速！",
+        "en": "Awesome! See you on the track—do not forget my boost!"
+      },
+      "decline": {
+        "zh": "行吧，那就在赛道上靠实力一决胜负！",
+        "en": "Fine by me! Let us settle it fair and square on the track!"
+      }
+    },
+    {
+      "accept": {
+        "zh": "很好，合作方案已确认。比赛里等你的助推。",
+        "en": "Good. Cooperation confirmed—I will watch for your boost."
+      },
+      "decline": {
+        "zh": "明白了。我按原计划推进，赛道上见。",
+        "en": "Understood. Sticking to my original plan. See you out there."
+      }
+    },
+    {
+      "accept": {
+        "zh": "太好啦！那我们比赛里一起照应咯～",
+        "en": "Great! Let us look out for each other out there~"
+      },
+      "decline": {
+        "zh": "没关系没关系，大家各跑各的也很开心呀！",
+        "en": "No worries at all! Racing our own way is fun too!"
+      }
+    },
+    {
+      "accept": {
+        "zh": "呵呵，很不错的选择。别忘了我们的约定。",
+        "en": "Heh, wise choice. Do not forget our little deal."
+      },
+      "decline": {
+        "zh": "真可惜，你刚刚错过了一笔好交易呢。",
+        "en": "What a pity—you just passed up a very good deal."
+      }
+    },
+    {
+      "accept": {
+        "zh": "很有眼光。等我拿下冠军，奖金少不了你的。",
+        "en": "Good eye. When I take first, your share will be waiting."
+      },
+      "decline": {
+        "zh": "拒绝我也没关系，待会儿在终点看我冲线吧。",
+        "en": "Decline if you wish—watch me cross the line first."
+      }
+    },
+    {
+      "accept": {
+        "zh": "太好了！那比赛的时候一定要帮我加速哦！",
+        "en": "Yay! Please remember to give me a boost in the race!"
+      },
+      "decline": {
+        "zh": "唔……好吧，那我自己也会加油跑完的！",
+        "en": "Aw... okay, I will still try my very best on my own!"
+      }
+    }
+  ],
+  "scene_topic_labels": {
+    "hello": {
+      "zh": "赛前状态",
+      "en": "PRE-RACE MOOD"
+    },
+    "joke": {
+      "zh": "开个玩笑",
+      "en": "CRACK A JOKE"
+    },
+    "praise": {
+      "zh": "夸夸表现",
+      "en": "COMPLIMENT"
+    },
+    "special": {
+      "zh": "上场习惯",
+      "en": "GATE RITUAL"
+    },
+    "snack": {
+      "zh": "赛前点心",
+      "en": "RACE SNACKS"
+    },
+    "weather": {
+      "zh": "风向赛道",
+      "en": "TRACK & WIND"
+    },
+    "dream": {
+      "zh": "冠军心愿",
+      "en": "VICTORY WISH"
+    },
+    "lucky": {
+      "zh": "小习惯",
+      "en": "LUCKY HABIT"
+    },
+    "rival": {
+      "zh": "聊聊对手",
+      "en": "RIVAL TALK"
+    },
+    "story": {
+      "zh": "骑手往事",
+      "en": "BACKSTORY"
+    }
+  }
+}

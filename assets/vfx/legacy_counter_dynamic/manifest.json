@@ -1,0 +1,38 @@
+[
+  {
+    "horse": 1,
+    "original": "assets/horses/counter_max/horse1_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  },
+  {
+    "horse": 2,
+    "original": "assets/horses/counter_max/horse2_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  },
+  {
+    "horse": 3,
+    "original": "assets/horses/counter_max/horse3_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  },
+  {
+    "horse": 4,
+    "original": "assets/horses/counter_max/horse4_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  },
+  {
+    "horse": 5,
+    "original": "assets/horses/counter_max/horse5_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  },
+  {
+    "horse": 6,
+    "original": "assets/horses/counter_max/horse6_0.png",
+    "frames": 12,
+    "method": "Old envelope separated using registered silhouette mask; 12 procedural flow/distortion frames derived from one original image. Not claimed as 12 original artist frames."
+  }
+]

@@ -1,0 +1,733 @@
+{
+  "source": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-9c72dd9c-6aa8-4107-97ae-f5fcae3ef593.png",
+  "source_size": [
+    1448,
+    1086
+  ],
+  "source_alpha": [
+    0,
+    255
+  ],
+  "frames": [
+    {
+      "horse": 1,
+      "frame": 0,
+      "source_box": [
+        0,
+        0,
+        241,
+        181
+      ],
+      "saddle_source": [
+        141.0,
+        82.0
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 1,
+      "frame": 1,
+      "source_box": [
+        241,
+        0,
+        483,
+        181
+      ],
+      "saddle_source": [
+        139.0,
+        83.0
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 1,
+      "frame": 2,
+      "source_box": [
+        483,
+        0,
+        724,
+        181
+      ],
+      "saddle_source": [
+        139.0,
+        82.0
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 1,
+      "frame": 3,
+      "source_box": [
+        724,
+        0,
+        965,
+        181
+      ],
+      "saddle_source": [
+        139.0,
+        84.5
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 1,
+      "frame": 4,
+      "source_box": [
+        965,
+        0,
+        1207,
+        181
+      ],
+      "saddle_source": [
+        139.5,
+        85.0
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 1,
+      "frame": 5,
+      "source_box": [
+        1207,
+        0,
+        1448,
+        181
+      ],
+      "saddle_source": [
+        141.0,
+        87.0
+      ],
+      "registered_seat": [
+        -0.5,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 0,
+      "source_box": [
+        0,
+        181,
+        241,
+        362
+      ],
+      "saddle_source": [
+        140.0,
+        74.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 1,
+      "source_box": [
+        241,
+        181,
+        483,
+        362
+      ],
+      "saddle_source": [
+        143.0,
+        76.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 2,
+      "source_box": [
+        483,
+        181,
+        724,
+        362
+      ],
+      "saddle_source": [
+        145.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 3,
+      "source_box": [
+        724,
+        181,
+        965,
+        362
+      ],
+      "saddle_source": [
+        147.0,
+        74.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 4,
+      "source_box": [
+        965,
+        181,
+        1207,
+        362
+      ],
+      "saddle_source": [
+        147.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 2,
+      "frame": 5,
+      "source_box": [
+        1207,
+        181,
+        1448,
+        362
+      ],
+      "saddle_source": [
+        149.5,
+        77.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 0,
+      "source_box": [
+        0,
+        362,
+        241,
+        543
+      ],
+      "saddle_source": [
+        136.0,
+        76.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 1,
+      "source_box": [
+        241,
+        362,
+        483,
+        543
+      ],
+      "saddle_source": [
+        137.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 2,
+      "source_box": [
+        483,
+        362,
+        724,
+        543
+      ],
+      "saddle_source": [
+        138.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 3,
+      "source_box": [
+        724,
+        362,
+        965,
+        543
+      ],
+      "saddle_source": [
+        142.0,
+        74.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 4,
+      "source_box": [
+        965,
+        362,
+        1207,
+        543
+      ],
+      "saddle_source": [
+        146.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 3,
+      "frame": 5,
+      "source_box": [
+        1207,
+        362,
+        1448,
+        543
+      ],
+      "saddle_source": [
+        149.0,
+        77.0
+      ],
+      "registered_seat": [
+        0,
+        -30
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 0,
+      "source_box": [
+        0,
+        543,
+        241,
+        724
+      ],
+      "saddle_source": [
+        140.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 1,
+      "source_box": [
+        241,
+        543,
+        483,
+        724
+      ],
+      "saddle_source": [
+        142.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 2,
+      "source_box": [
+        483,
+        543,
+        724,
+        724
+      ],
+      "saddle_source": [
+        144.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 3,
+      "source_box": [
+        724,
+        543,
+        965,
+        724
+      ],
+      "saddle_source": [
+        144.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 4,
+      "source_box": [
+        965,
+        543,
+        1207,
+        724
+      ],
+      "saddle_source": [
+        142.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 4,
+      "frame": 5,
+      "source_box": [
+        1207,
+        543,
+        1448,
+        724
+      ],
+      "saddle_source": [
+        147.0,
+        73.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 0,
+      "source_box": [
+        0,
+        724,
+        241,
+        905
+      ],
+      "saddle_source": [
+        132.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 1,
+      "source_box": [
+        241,
+        724,
+        483,
+        905
+      ],
+      "saddle_source": [
+        136.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 2,
+      "source_box": [
+        483,
+        724,
+        724,
+        905
+      ],
+      "saddle_source": [
+        138.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 3,
+      "source_box": [
+        724,
+        724,
+        965,
+        905
+      ],
+      "saddle_source": [
+        144.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 4,
+      "source_box": [
+        965,
+        724,
+        1207,
+        905
+      ],
+      "saddle_source": [
+        149.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 5,
+      "frame": 5,
+      "source_box": [
+        1207,
+        724,
+        1448,
+        905
+      ],
+      "saddle_source": [
+        155.0,
+        73.0
+      ],
+      "registered_seat": [
+        0.5,
+        -27
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 0,
+      "source_box": [
+        0,
+        905,
+        241,
+        1086
+      ],
+      "saddle_source": [
+        138.0,
+        74.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 1,
+      "source_box": [
+        241,
+        905,
+        483,
+        1086
+      ],
+      "saddle_source": [
+        139.5,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 2,
+      "source_box": [
+        483,
+        905,
+        724,
+        1086
+      ],
+      "saddle_source": [
+        135.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 3,
+      "source_box": [
+        724,
+        905,
+        965,
+        1086
+      ],
+      "saddle_source": [
+        137.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 4,
+      "source_box": [
+        965,
+        905,
+        1207,
+        1086
+      ],
+      "saddle_source": [
+        142.0,
+        75.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    },
+    {
+      "horse": 6,
+      "frame": 5,
+      "source_box": [
+        1207,
+        905,
+        1448,
+        1086
+      ],
+      "saddle_source": [
+        146.0,
+        74.0
+      ],
+      "registered_seat": [
+        0,
+        -29
+      ],
+      "fixed_local_pixel_scale": 0.52,
+      "fallback_saddle": false
+    }
+  ]
+}

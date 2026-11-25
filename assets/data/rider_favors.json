@@ -1,0 +1,456 @@
+{
+  "help_bonus": 0.1,
+  "minimum_chance": 0.05,
+  "maximum_chance": 0.95,
+  "request": {
+    "start_after": 5.5,
+    "visible_seconds": 6.0,
+    "retry_after": 1.25,
+    "approach_range": 95,
+    "maximum_per_rider": 2,
+    "rider_round_interval": 2
+  },
+  "chat": {
+    "bonus": 0.01,
+    "maximum": 4,
+    "signals": [
+      {
+        "id": "encouragement",
+        "words": [
+          "加油",
+          "冲呀",
+          "冲啊",
+          "一起跑",
+          "一起加油",
+          "你可以的",
+          "go",
+          "goodluck",
+          "youcandoit",
+          "letsgo"
+        ],
+        "emotes": [
+          9,
+          19
+        ]
+      },
+      {
+        "id": "compliment",
+        "words": [
+          "漂亮",
+          "跑得好",
+          "跑得真好",
+          "你跑得真好",
+          "今天你表现很厉害呢",
+          "厉害",
+          "你真厉害",
+          "好漂亮",
+          "nice",
+          "nicemove",
+          "welldone",
+          "greatjob",
+          "goodrace",
+          "wow",
+          "greatrace"
+        ],
+        "emotes": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": "goodwill",
+        "words": [
+          "谢谢",
+          "多谢",
+          "谢啦",
+          "你好",
+          "你好呀",
+          "很高兴认识你",
+          "辛苦了",
+          "thanks",
+          "thankyou",
+          "hi",
+          "hello",
+          "nicetomeetyou"
+        ],
+        "emotes": [
+          16
+        ]
+      },
+      {
+        "id": "apology",
+        "words": [
+          "哎哟",
+          "糟糕",
+          "对不起",
+          "不好意思",
+          "抱歉",
+          "oops",
+          "sorry",
+          "mybad"
+        ],
+        "emotes": []
+      }
+    ]
+  },
+  "riders": [
+    {
+      "inclination": -0.01,
+      "request": {
+        "zh": [
+          "追前面那匹！待会儿给我留个道？",
+          "直说吧，弯道能让我先走吗？",
+          "帮个忙，下一段给我点空当！"
+        ],
+        "en": [
+          "Chasing the leader! Can you leave me a lane?",
+          "Straight up: can I go first into the bend?",
+          "Do me a favor. Save me some room ahead!"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "痛快！这份人情我记了。",
+          "够意思！改天还你。",
+          "谢了！这就跟上！"
+        ],
+        "en": [
+          "Nice! I owe you one.",
+          "Thanks! I'll return the favor.",
+          "Thanks! Here I come!"
+        ]
+      },
+      "decline": {
+        "zh": [
+          "懂了，那我自己冲！",
+          "行，赛道上见！",
+          "没事，我另外找机会。"
+        ],
+        "en": [
+          "Got it. I'll make my own move.",
+          "Fair enough. See you up there!",
+          "No worries. I'll find another opening."
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "好！跟上我的节奏！",
+          "接好了，就这一下！"
+        ],
+        "en": [
+          "All right! Match my pace!",
+          "Here you go! Make it count!"
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "再等等，我正忙着追呢。",
+          "这次不行，我得自己冲。"
+        ],
+        "en": [
+          "Give me a moment. I'm chasing too.",
+          "Not this time. I need my own sprint."
+        ]
+      }
+    },
+    {
+      "inclination": -0.02,
+      "request": {
+        "zh": [
+          "过弯时能留出外侧吗？更有效率。",
+          "我们各跑一边，能省一次减速。可以吗？",
+          "下一段我需要直线，你能留些余量吗？"
+        ],
+        "en": [
+          "Could you leave the outside open? It's more efficient.",
+          "Separate lines save us both a brake. Deal?",
+          "I'll need a straight run ahead. Can you leave room?"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "收到。下次也给你留线。",
+          "多谢，这样就不用抢道了。",
+          "我欠你一次，已经记下。"
+        ],
+        "en": [
+          "Understood. I'll leave you a lane next time.",
+          "Thanks. No need to fight for the line now.",
+          "I owe you one. Logged."
+        ]
+      },
+      "decline": {
+        "zh": [
+          "了解，我调整路线。",
+          "明白，另找空当。",
+          "合理。按原计划跑。"
+        ],
+        "en": [
+          "Understood. I'll adjust my line.",
+          "Got it. I'll look for another opening.",
+          "Fair. I'll stick with my plan."
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "可以。趁现在直线提速。",
+          "收到，窗口很短。"
+        ],
+        "en": [
+          "Yes. Use the straight to accelerate.",
+          "Copy that. Short window."
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "此时助推并不划算。",
+          "先稳住。现在不合适。"
+        ],
+        "en": [
+          "A boost isn't worth it right now.",
+          "Hold your line. Wrong moment."
+        ]
+      }
+    },
+    {
+      "inclination": 0.04,
+      "request": {
+        "zh": [
+          "我好不容易追上啦，能让我先过一下吗？",
+          "前面好挤呀，能借我一点空当吗？",
+          "我们别撞在一起啦，你能让我靠过去吗？"
+        ],
+        "en": [
+          "I finally caught up! Mind if I go ahead?",
+          "It's crowded up there. Can you leave me room?",
+          "Let's not bump! Can you let me move over?"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "太好啦！我也会帮你的！",
+          "谢谢！下回换我给你加油！",
+          "哇，多亏你啦！"
+        ],
+        "en": [
+          "Great! I'll help you too!",
+          "Thank you! I'll cheer for you next time!",
+          "Aw, thanks for helping!"
+        ]
+      },
+      "decline": {
+        "zh": [
+          "没关系，我再等等！",
+          "当然可以，你先跑！",
+          "好呀，小心前面的弯！"
+        ],
+        "en": [
+          "No worries. I can wait!",
+          "Of course. You go first!",
+          "Okay! Watch that bend!"
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "当然啦！一起加油！",
+          "来啦！我帮你冲一下！"
+        ],
+        "en": [
+          "Of course! Let's go together!",
+          "Coming! Here's a little boost!"
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "现在来不及呀，下回好吗？",
+          "抱歉，我自己也在追！"
+        ],
+        "en": [
+          "Can't make it now. Next time?",
+          "Sorry! I'm trying to catch up too!"
+        ]
+      }
+    },
+    {
+      "inclination": -0.045,
+      "request": {
+        "zh": [
+          "呵呵，借我一点外道？我保证少捣乱。",
+          "猜猜我想从哪儿过？给我留条道就好。",
+          "商量一下，前面的空当借我用一次？"
+        ],
+        "en": [
+          "Heh. Spare me the outside? I'll behave. Mostly.",
+          "Guess which side I'll pass on? Just leave me a lane.",
+          "How about lending me that opening up ahead?"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "咦，答得真干脆。我记住了。",
+          "有意思。下回我也放你过去。",
+          "多谢。放心，这句是真的。"
+        ],
+        "en": [
+          "Ooh, that was quick. I'll remember it.",
+          "Interesting. I'll let you through next time.",
+          "Thanks. Don't worry, I mean it this time."
+        ]
+      },
+      "decline": {
+        "zh": [
+          "呵呵，我还以为你会答应呢。",
+          "好吧，我还有一条路线。",
+          "那就看看谁先找到空当。"
+        ],
+        "en": [
+          "Heh. Thought you'd say yes.",
+          "Fine. I've got another line.",
+          "Let's see who finds an opening first."
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "呵呵，扶稳缰绳。",
+          "我帮你一下，可别得意。"
+        ],
+        "en": [
+          "Heh. Hold those reins.",
+          "I'll help. Don't get smug about it."
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "呵呵，这笔账现在不划算。",
+          "这么快就想要我帮忙啦？"
+        ],
+        "en": [
+          "Heh. Not a good deal right now.",
+          "Asking for help already, are we?"
+        ]
+      }
+    },
+    {
+      "inclination": -0.035,
+      "request": {
+        "zh": [
+          "若方便，可否把外侧让给我片刻？",
+          "请给我留一点位置，我想从侧面过去。",
+          "有劳。下一段能让我先行吗？"
+        ],
+        "en": [
+          "If it's convenient, may I use the outside for a moment?",
+          "Some room to pass, if you please.",
+          "Would you be so kind as to let me through ahead?"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "多谢。你的体贴，我记下了。",
+          "承你照顾。改日一定奉还。",
+          "真是得体的协助。谢谢。"
+        ],
+        "en": [
+          "Thank you. I'll remember your courtesy.",
+          "Much obliged. I'll return the favor.",
+          "A most gracious assist. Thank you."
+        ]
+      },
+      "decline": {
+        "zh": [
+          "当然，你有自己的路线。",
+          "无妨，我另选时机。",
+          "既然如此，我们各凭本事。"
+        ],
+        "en": [
+          "Of course. You have your own line.",
+          "No trouble. I'll wait for another chance.",
+          "Very well. May the better rider win."
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "举手之劳。请跟上。",
+          "可以，让我推你一程。"
+        ],
+        "en": [
+          "My pleasure. Stay with me.",
+          "Certainly. Allow me to give you a push."
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "抱歉，请容我先顾好自己的路线。",
+          "这会儿恐怕不合适。"
+        ],
+        "en": [
+          "Pardon me. I must mind my own line first.",
+          "I'm afraid the timing isn't right."
+        ]
+      }
+    },
+    {
+      "inclination": 0.03,
+      "request": {
+        "zh": [
+          "拜托嘛，下个弯给我让一小点？",
+          "我追得好累，能让我从旁边溜过去吗？",
+          "就借一下外道啦，求你啦～"
+        ],
+        "en": [
+          "Pretty please, a little room at the next turn?",
+          "Catching up was hard! Can I slip past on the side?",
+          "Can I borrow the outside lane? Pleeease?"
+        ]
+      },
+      "accept": {
+        "zh": [
+          "好耶！你最好啦～",
+          "谢谢！下次换本姑娘帮你！",
+          "成交！给你一个飞吻～"
+        ],
+        "en": [
+          "Yay! You're the best!",
+          "Thanks! Next time I'll help you!",
+          "Deal! Sending you a kiss!"
+        ]
+      },
+      "decline": {
+        "zh": [
+          "哼哼，那我自己也行～",
+          "好嘛，我再找一个空位！",
+          "没事啦，你也要加油哦！"
+        ],
+        "en": [
+          "Hmph. I can manage on my own!",
+          "Fiiine. I'll find another gap!",
+          "It's okay. Good luck out there!"
+        ]
+      },
+      "boost_yes": {
+        "zh": [
+          "好嘛，助推来咯～",
+          "抓紧啦！本姑娘来帮你。"
+        ],
+        "en": [
+          "All right! Boost coming!",
+          "Hang on! I'm here to help."
+        ]
+      },
+      "boost_no": {
+        "zh": [
+          "唔，等我先追上前面那匹嘛～",
+          "下次吧，好不好？"
+        ],
+        "en": [
+          "Let me catch the rider ahead first!",
+          "Next time, okay?"
+        ]
+      }
+    }
+  ],
+  "player_request": {
+    "base_chance": 0.5,
+    "boost_seconds": 0.85
+  }
+}

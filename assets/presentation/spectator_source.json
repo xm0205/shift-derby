@@ -1,0 +1,30 @@
+{
+  "source": "第十五组.png",
+  "frames": [
+    [
+      0,
+      300,
+      375,
+      411
+    ],
+    [
+      380,
+      300,
+      755,
+      411
+    ],
+    [
+      760,
+      300,
+      1135,
+      411
+    ],
+    [
+      1140,
+      300,
+      1515,
+      411
+    ]
+  ],
+  "usage": "two spectator rows outside track; idle, cheering, finish celebration"
+}

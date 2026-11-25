@@ -1,0 +1,218 @@
+{
+  "menu_background": {
+    "source": 8,
+    "rect": [
+      0,
+      0,
+      1672,
+      941
+    ]
+  },
+  "main_play": {
+    "source": 8,
+    "rect": [
+      1061,
+      303,
+      1584,
+      445
+    ]
+  },
+  "main_help": {
+    "source": 8,
+    "rect": [
+      1074,
+      453,
+      1570,
+      563
+    ]
+  },
+  "main_settings": {
+    "source": 8,
+    "rect": [
+      1074,
+      572,
+      1570,
+      685
+    ]
+  },
+  "main_quit": {
+    "source": 8,
+    "rect": [
+      1074,
+      691,
+      1570,
+      805
+    ]
+  },
+  "panel_tall": {
+    "source": 11,
+    "rect": [
+      30,
+      45,
+      686,
+      1005
+    ]
+  },
+  "panel_wide": {
+    "source": 11,
+    "rect": [
+      708,
+      340,
+      1418,
+      678
+    ]
+  },
+  "pause_header": {
+    "source": 11,
+    "rect": [
+      705,
+      15,
+      1420,
+      322
+    ]
+  },
+  "settings_en": {
+    "source": 12,
+    "rect": [
+      100,
+      0,
+      705,
+      187
+    ]
+  },
+  "settings_zh": {
+    "source": 12,
+    "rect": [
+      731,
+      0,
+      1334,
+      187
+    ]
+  },
+  "settings_panel": {
+    "source": 12,
+    "rect": [
+      25,
+      199,
+      822,
+      603
+    ]
+  },
+  "language_en": {
+    "source": 12,
+    "rect": [
+      1131,
+      610,
+      1398,
+      716
+    ]
+  },
+  "language_zh": {
+    "source": 12,
+    "rect": [
+      1131,
+      711,
+      1398,
+      806
+    ]
+  },
+  "sound_on": {
+    "source": 12,
+    "rect": [
+      863,
+      612,
+      1111,
+      718
+    ]
+  },
+  "sound_off": {
+    "source": 12,
+    "rect": [
+      863,
+      715,
+      1111,
+      813
+    ]
+  },
+  "results_header": {
+    "source": 13,
+    "rect": [
+      20,
+      0,
+      582,
+      198
+    ]
+  },
+  "victory": {
+    "source": 13,
+    "rect": [
+      603,
+      0,
+      1123,
+      225
+    ]
+  },
+  "defeat": {
+    "source": 13,
+    "rect": [
+      1135,
+      0,
+      1536,
+      220
+    ]
+  },
+  "rankings": {
+    "source": 13,
+    "rect": [
+      15,
+      201,
+      583,
+      755
+    ]
+  },
+  "trophy": {
+    "source": 13,
+    "rect": [
+      590,
+      495,
+      817,
+      655
+    ]
+  },
+  "help_en": {
+    "source": 10,
+    "rect": [
+      0,
+      0,
+      548,
+      105
+    ]
+  },
+  "help_zh": {
+    "source": 9,
+    "rect": [
+      560,
+      0,
+      1112,
+      105
+    ]
+  },
+  "brake_indicator": {
+    "source": 4,
+    "rect": [
+      780,
+      0,
+      1200,
+      220
+    ]
+  },
+  "boost_indicator": {
+    "source": 4,
+    "rect": [
+      1200,
+      0,
+      1650,
+      220
+    ]
+  }
+}

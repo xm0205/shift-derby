@@ -1,0 +1,24 @@
+SHIFT DERBY / 赛马 SHIFT — Asset credits
+
+Kenney, Impact Sounds / Casino Audio / Interface Sounds, CC0 1.0
+https://kenney.nl/assets/impact-sounds
+https://kenney.nl/assets/casino-audio
+https://kenney.nl/assets/interface-sounds
+
+Freesound recordings used under CC0 1.0, with in-game edits:
+D4XX, Single Horse Galopp — https://freesound.org/people/D4XX/sounds/564628/
+Salsero_classic, horse neigh — https://freesound.org/people/Salsero_classic/sounds/826753/
+Bird_man, starting shot — https://freesound.org/people/Bird_man/sounds/275151/
+HowardV, crowd gasp — https://freesound.org/people/HowardV/sounds/264376/
+FoolBoyMedia, sports cheer — https://freesound.org/people/FoolBoyMedia/sounds/397434/
+Krizin, finish cheer — https://freesound.org/people/Krizin/sounds/651640/
+Breviceps, confetti pop — https://freesound.org/people/Breviceps/sounds/458398/
+MilanKovanda, fireworks — https://freesound.org/people/MilanKovanda/sounds/500816/
+
+Noto Sans SC, bold subset, SIL Open Font License 1.1. License text included.
+Original visuals use project-supplied artwork and AI-assisted visual asset work.
+Overdrive RAM and HIT are original synthesized effects made for SHIFT DERBY. The PERFECT COUNTER, OVERDRIVE, and KNOCKBACK voice effects were generated with AI audio tools by the project creator.
+Champion cutscenes supplied by the creator. Audio edition uses:
+Crowd Cheering — SoundsExciting, CC0 1.0, https://freesound.org/people/SoundsExciting/sounds/365132/
+Camera Shutter Snap — SecureSubset, CC0 1.0, https://freesound.org/people/SecureSubset/sounds/784946/
+whoosh past mic — TimBahrij, CC0 1.0, https://freesound.org/people/TimBahrij/sounds/234915/

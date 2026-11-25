@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/race.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/stadium_layer.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/horse_layer.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/race_hud.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/stadium_presentation.gd" id="5"]
+[node name="ShiftDerby" type="Node2D"]
+script = ExtResource("1")
+[node name="Stadium" type="Node2D" parent="."]
+[node name="SkyMountains" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 0
+[node name="OuterGrass" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 1
+[node name="ClosedTrack" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 2
+[node name="InfieldGarden" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 3
+[node name="InnerFence" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 4
+[node name="OuterFence" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 5
+[node name="OutsideGrandstands" type="Node2D" parent="Stadium"]
+script = ExtResource("2")
+kind = 6
+[node name="Horses" type="Node2D" parent="."]
+z_index = 10
+script = ExtResource("3")
+[node name="HUD" type="Node2D" parent="."]
+z_index = 20
+script = ExtResource("4")
+
+[node name="Presentation" type="Node2D" parent="Stadium"]
+script = ExtResource("5")

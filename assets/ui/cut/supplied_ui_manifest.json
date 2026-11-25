@@ -1,0 +1,1416 @@
+{
+  "cx_incoming": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      52,
+      27,
+      370,
+      143
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_perfect": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      397,
+      0,
+      765,
+      144
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_now": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      782,
+      25,
+      1095,
+      137
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_boost": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1109,
+      20,
+      1505,
+      139
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_early": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      74,
+      145,
+      331,
+      230
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_late": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      361,
+      145,
+      609,
+      230
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_plus": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      669,
+      142,
+      953,
+      231
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_charge_on": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1218,
+      140,
+      1302,
+      229
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_charge_off": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1367,
+      142,
+      1457,
+      229
+    ],
+    "alpha_threshold": 145,
+    "purpose": ""
+  },
+  "cx_warning_0": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      23,
+      248,
+      114,
+      330
+    ],
+    "alpha_threshold": 120,
+    "purpose": ""
+  },
+  "cx_warning_1": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      119,
+      248,
+      210,
+      330
+    ],
+    "alpha_threshold": 120,
+    "purpose": ""
+  },
+  "cx_warning_2": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      215,
+      248,
+      306,
+      330
+    ],
+    "alpha_threshold": 120,
+    "purpose": ""
+  },
+  "cx_warning_3": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      311,
+      248,
+      402,
+      330
+    ],
+    "alpha_threshold": 120,
+    "purpose": ""
+  },
+  "cx_warning_4": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      407,
+      248,
+      498,
+      330
+    ],
+    "alpha_threshold": 120,
+    "purpose": ""
+  },
+  "cx_trail_0": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      363,
+      1096,
+      453
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_0": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      356,
+      1233,
+      451
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_trail_1": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      471,
+      1096,
+      561
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_1": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      464,
+      1233,
+      559
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_trail_2": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      579,
+      1096,
+      669
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_2": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      572,
+      1233,
+      667
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_trail_3": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      687,
+      1096,
+      777
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_3": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      680,
+      1233,
+      775
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_trail_4": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      795,
+      1096,
+      885
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_4": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      788,
+      1233,
+      883
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_trail_5": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      937,
+      903,
+      1096,
+      993
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "cx_shield_5": {
+    "source": "六马反击系统像素图鉴.png",
+    "rect": [
+      1080,
+      896,
+      1233,
+      991
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_confirm_panel": {
+    "source": "下注.png",
+    "rect": [
+      10,
+      0,
+      645,
+      512
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_no_panel": {
+    "source": "下注.png",
+    "rect": [
+      644,
+      10,
+      1004,
+      342
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_header": {
+    "source": "下注.png",
+    "rect": [
+      1003,
+      8,
+      1448,
+      124
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_placed": {
+    "source": "下注.png",
+    "rect": [
+      1016,
+      246,
+      1445,
+      361
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_table": {
+    "source": "下注.png",
+    "rect": [
+      6,
+      514,
+      689,
+      981
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_tip": {
+    "source": "下注.png",
+    "rect": [
+      694,
+      809,
+      1436,
+      931
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_funds": {
+    "source": "下注.png",
+    "rect": [
+      10,
+      982,
+      441,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_confirm": {
+    "source": "下注.png",
+    "rect": [
+      1148,
+      980,
+      1448,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_cancel": {
+    "source": "下注.png",
+    "rect": [
+      889,
+      980,
+      1144,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_coin": {
+    "source": "下注.png",
+    "rect": [
+      808,
+      570,
+      924,
+      697
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_chip50": {
+    "source": "下注.png",
+    "rect": [
+      924,
+      569,
+      1055,
+      704
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_chip100": {
+    "source": "下注.png",
+    "rect": [
+      1056,
+      571,
+      1177,
+      702
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_chip200": {
+    "source": "下注.png",
+    "rect": [
+      1179,
+      570,
+      1306,
+      702
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_chip500": {
+    "source": "下注.png",
+    "rect": [
+      1309,
+      570,
+      1448,
+      702
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_collision": {
+    "source": "事件ui.png",
+    "rect": [
+      42,
+      0,
+      714,
+      236
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_heavy": {
+    "source": "事件ui.png",
+    "rect": [
+      735,
+      0,
+      1408,
+      236
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_down": {
+    "source": "事件ui.png",
+    "rect": [
+      39,
+      234,
+      715,
+      464
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_up": {
+    "source": "事件ui.png",
+    "rect": [
+      738,
+      234,
+      1408,
+      465
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_recovered": {
+    "source": "事件ui.png",
+    "rect": [
+      41,
+      462,
+      714,
+      701
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_stunned": {
+    "source": "事件ui.png",
+    "rect": [
+      735,
+      457,
+      1408,
+      701
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_risk": {
+    "source": "事件ui.png",
+    "rect": [
+      10,
+      701,
+      406,
+      799
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_blocked": {
+    "source": "事件ui.png",
+    "rect": [
+      409,
+      699,
+      797,
+      802
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_dizzy": {
+    "source": "事件ui.png",
+    "rect": [
+      797,
+      701,
+      1063,
+      799
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "ev_back": {
+    "source": "事件ui.png",
+    "rect": [
+      1062,
+      700,
+      1448,
+      803
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_header": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      31,
+      0,
+      694,
+      247
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_resume": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      134,
+      396,
+      571,
+      501
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_restart": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      133,
+      505,
+      573,
+      609
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_settings": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      132,
+      614,
+      572,
+      718
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_menu": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      132,
+      722,
+      573,
+      827
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_restart_panel": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      689,
+      218,
+      1445,
+      660
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_icon": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "rect": [
+      725,
+      63,
+      854,
+      178
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "px_shell": {
+    "source": "SHIFT DERBY暂停菜单像素素材表.png",
+    "rect": [
+      22,
+      250,
+      558,
+      797
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_header_en": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      109,
+      0,
+      709,
+      185
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_header_zh": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      738,
+      0,
+      1348,
+      185
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_panel": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      25,
+      192,
+      827,
+      611
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_panel_small": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      852,
+      219,
+      1405,
+      572
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_language_en": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      1126,
+      610,
+      1400,
+      714
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_language_zh": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      1126,
+      715,
+      1400,
+      811
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_toggle_on": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      867,
+      610,
+      1110,
+      716
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_toggle_off": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      867,
+      714,
+      1110,
+      814
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_slider": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      174,
+      718,
+      700,
+      803
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_slider_fill": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      174,
+      623,
+      700,
+      702
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_sound": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      35,
+      698,
+      144,
+      795
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_fullscreen": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      40,
+      792,
+      134,
+      882
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_back_en": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      686,
+      832,
+      938,
+      927
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_back_zh": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      686,
+      940,
+      938,
+      1035
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_confirm_en": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      171,
+      829,
+      434,
+      927
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_confirm_zh": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "rect": [
+      171,
+      938,
+      435,
+      1035
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "sx_knob": {
+    "source": "16位像素风设置界面素材表.png",
+    "rect": [
+      752,
+      20,
+      865,
+      135
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_header_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      592,
+      0,
+      1101,
+      178
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_choose_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      562,
+      182,
+      916,
+      396
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_shift_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      924,
+      182,
+      1232,
+      396
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_finish_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      1245,
+      182,
+      1533,
+      396
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_brake_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      565,
+      407,
+      1030,
+      640
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_boost_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      1045,
+      406,
+      1532,
+      640
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_lane_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      565,
+      644,
+      1030,
+      883
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_collision_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      1045,
+      644,
+      1532,
+      883
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_back_zh": {
+    "source": "像素赛马玩法说明界面素材表(中文).png",
+    "rect": [
+      1257,
+      899,
+      1524,
+      1004
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_header_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      16,
+      0,
+      579,
+      178
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_choose_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      562,
+      155,
+      916,
+      370
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_shift_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      924,
+      155,
+      1232,
+      370
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_finish_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      1245,
+      155,
+      1533,
+      370
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_brake_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      565,
+      373,
+      1030,
+      620
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_boost_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      1045,
+      373,
+      1532,
+      620
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_lane_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      565,
+      629,
+      1030,
+      867
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_collision_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      1045,
+      629,
+      1532,
+      867
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "hx_back_en": {
+    "source": "像素风竞速游戏英文操作指南.png",
+    "rect": [
+      1257,
+      891,
+      1524,
+      1004
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_round": {
+    "source": "马头像.png",
+    "rect": [
+      699,
+      19,
+      952,
+      172
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_funds_full": {
+    "source": "马头像.png",
+    "rect": [
+      964,
+      14,
+      1446,
+      172
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_amount": {
+    "source": "马头像.png",
+    "rect": [
+      16,
+      725,
+      514,
+      945
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_odds": {
+    "source": "马头像.png",
+    "rect": [
+      523,
+      737,
+      809,
+      923
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_return": {
+    "source": "马头像.png",
+    "rect": [
+      811,
+      737,
+      1135,
+      923
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_profit": {
+    "source": "马头像.png",
+    "rect": [
+      1132,
+      737,
+      1448,
+      923
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_start": {
+    "source": "马头像.png",
+    "rect": [
+      925,
+      950,
+      1412,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_no_bet": {
+    "source": "马头像.png",
+    "rect": [
+      523,
+      950,
+      924,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_confirm_bet": {
+    "source": "马头像.png",
+    "rect": [
+      34,
+      950,
+      519,
+      1086
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_0": {
+    "source": "马头像.png",
+    "rect": [
+      15,
+      194,
+      257,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_1": {
+    "source": "马头像.png",
+    "rect": [
+      258,
+      194,
+      497,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_2": {
+    "source": "马头像.png",
+    "rect": [
+      497,
+      194,
+      736,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_3": {
+    "source": "马头像.png",
+    "rect": [
+      737,
+      194,
+      970,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_4": {
+    "source": "马头像.png",
+    "rect": [
+      972,
+      194,
+      1205,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "bx_horse_5": {
+    "source": "马头像.png",
+    "rect": [
+      1205,
+      194,
+      1448,
+      466
+    ],
+    "alpha_threshold": 180,
+    "purpose": ""
+  },
+  "fx_dust_0": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      60,
+      10,
+      175,
+      106
+    ]
+  },
+  "fx_dust_1": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      187,
+      10,
+      316,
+      106
+    ]
+  },
+  "fx_dust_2": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      316,
+      5,
+      476,
+      108
+    ]
+  },
+  "fx_dust_3": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      480,
+      0,
+      689,
+      109
+    ]
+  },
+  "fx_dust_4": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      693,
+      7,
+      880,
+      108
+    ]
+  },
+  "fx_dust_5": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      890,
+      14,
+      1053,
+      108
+    ]
+  },
+  "fx_dust_6": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      1086,
+      16,
+      1245,
+      108
+    ]
+  },
+  "fx_dust_7": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      1294,
+      20,
+      1430,
+      108
+    ]
+  },
+  "fx_hit_0": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      195,
+      102,
+      386,
+      234
+    ]
+  },
+  "fx_hit_1": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      386,
+      103,
+      584,
+      234
+    ]
+  },
+  "fx_hit_2": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      587,
+      95,
+      823,
+      235
+    ]
+  },
+  "fx_hit_3": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      846,
+      105,
+      1033,
+      235
+    ]
+  },
+  "fx_stun_0": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      66,
+      365,
+      230,
+      466
+    ]
+  },
+  "fx_stun_1": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      279,
+      365,
+      505,
+      466
+    ]
+  },
+  "fx_stun_2": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      540,
+      365,
+      783,
+      466
+    ]
+  },
+  "fx_stun_3": {
+    "source": "像素竞速特效精灵图集.png",
+    "rect": [
+      806,
+      365,
+      1035,
+      466
+    ]
+  },
+  "mm_frame": {
+    "source": "小地图.png",
+    "rect": [
+      19,
+      37,
+      1431,
+      1050
+    ]
+  },
+  "sx_panel_plain": {
+    "source": "复古赛车游戏设置界面素材表.png",
+    "derived_from": "sx_panel",
+    "processing": "Replace center crest using straight source-border strip, preserving source sides and lower rim."
+  },
+  "px_header_blank": {
+    "source": "SHIFT DERBY暂停菜单精灵图做爰片.png",
+    "derived_from": "px_header",
+    "processing": "Clear baked text only; live bilingual title."
+  },
+  "run_trophy": {
+    "source": "16位像素风竞速赛果界面素材表.png",
+    "rect": [
+      1310,
+      0,
+      1536,
+      176
+    ]
+  },
+  "race_rank_1": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      710,
+      21,
+      936,
+      277
+    ]
+  },
+  "race_rank_2": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      933,
+      67,
+      1143,
+      273
+    ]
+  },
+  "race_rank_3": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      1143,
+      71,
+      1353,
+      275
+    ]
+  },
+  "race_rank_4": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      716,
+      284,
+      922,
+      464
+    ]
+  },
+  "race_rank_5": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      928,
+      281,
+      1143,
+      465
+    ]
+  },
+  "race_rank_6": {
+    "source": "ChatGPT 图像 2026年11月13日 12_24_24.png",
+    "rect": [
+      1147,
+      281,
+      1347,
+      465
+    ]
+  }
+}
